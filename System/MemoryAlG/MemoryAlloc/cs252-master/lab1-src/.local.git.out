@@ -1,0 +1,1671 @@
+[master 890bec5] Commit
+ 4 files changed, 174 insertions(+), 121 deletions(-)
+[master b82bc84] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 4b61ca1] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 06d4fbd] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master ed76901] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 90c7564] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master e41ac82] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master dba1349] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+[master a5cc971] Commit
+ 2 files changed, 23 insertions(+), 6 deletions(-)
+ create mode 100644 total.txt
+[master fbfa750] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master b8e5089] Commit
+ 1 file changed, 13 deletions(-)
+ delete mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+[master 3a916dc] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master da2dc26] Commit
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[master 7234db9] Commit
+ 1 file changed, 1 deletion(-)
+[master 68d0de9] Commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 0d6bb3a] Commit
+ 1 file changed, 20 insertions(+), 4 deletions(-)
+[master 2dcd5c5] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 6d4ee4f] Commit
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master b06f6e3] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 706e23f] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master ac7cf2e] Commit
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+[master ec4a1d5] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	MyMalloc.o
+	MyMalloc.so
+	test0
+	test1
+	test1-1
+	test1-2
+	test1-3
+	test1-4
+	test10
+	test2
+	test3
+	test4
+	test5
+	test6
+	test7
+	test8
+	test9
+
+nothing added to commit but untracked files present
+[master 4224543] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	MyMalloc.o
+	MyMalloc.so
+	test0
+	test1
+	test1-1
+	test1-2
+	test1-3
+	test1-4
+	test10
+	test2
+	test3
+	test4
+	test5
+	test6
+	test7
+	test8
+	test9
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	MyMalloc.o
+	MyMalloc.so
+	test0
+	test1
+	test1-1
+	test1-2
+	test1-3
+	test1-4
+	test10
+	test2
+	test3
+	test4
+	test5
+	test6
+	test7
+	test8
+	test9
+
+nothing added to commit but untracked files present
+[master 32f7514] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4e6800d] Commit
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[master e411c44] Commit
+ 1 file changed, 2 deletions(-)
+[master 1de4dbc] Commit
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+
+nothing added to commit but untracked files present
+[master cb854d9] Commit
+ 2 files changed, 52 insertions(+), 12 deletions(-)
+ create mode 100644 total.txt
+[master 6336682] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master e01bde0] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 606c601] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 609bee8] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6062fbf] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master a69ceaf] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6e8d1ec] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 87d6597] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master d3f38a2] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master a875f4d] Commit
+ 2 files changed, 29 insertions(+)
+ create mode 100644 total.txt
+[master 759bb6d] Commit
+ 2 files changed, 5 insertions(+), 16 deletions(-)
+ delete mode 100644 total.txt
+[master 8273586] Commit
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+[master 87e5734] Commit
+ 2 files changed, 43 insertions(+), 13 deletions(-)
+ create mode 100644 total.txt
+[master d38d2de] Commit
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master c40f1f2] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 199712f] Commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 total.txt
+[master 598ec7a] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 5f71a86] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 949d16a] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 01dbc45] Commit
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+[master 7e09637] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master e02afdf] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 05423c2] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master cb9ff16] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master e35ac22] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+[master c83fe21] Commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 total.txt
+[master 067f5df] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 33e359b] Commit
+ 2 files changed, 28 insertions(+), 5 deletions(-)
+ create mode 100644 total.txt
+[master 1359c7a] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+[master 0a447d4] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+[master 3193481] Commit
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 total.txt
+[master 14f0554] Commit
+ 1 file changed, 5 insertions(+)
+[master b6c6d4e] Commit
+ 1 file changed, 1 insertion(+)
+[master 03b5be2] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3d5a183] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master b372a48] Commit
+ 1 file changed, 1 insertion(+)
+[master 9f4171b] Commit
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[master 58eef70] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4b42714] Commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master e00ac49] Commit
+ 1 file changed, 2 insertions(+)
+[master 6e7346d] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0c586f6] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master d28a201] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master b8e7397] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 7d7d728] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5a276a8] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master add8168] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master b51b440] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0b72114] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master c02e3be] Commit
+ 2 files changed, 23 insertions(+), 3 deletions(-)
+ create mode 100644 total.txt
+[master 300f3d9] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 2dd7352] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3d47d05] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4605679] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 30a973a] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 49dfcb6] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 6e8f0b1] Commit
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 total.txt
+[master fbae6dc] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 7de8c88] Commit
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 total.txt
+[master efc31b6] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master f5ab6ad] Commit
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+[master c74c26b] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master bdd90ca] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c7a2209] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master d8bfa05] Commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 total.txt
+[master 03a3f19] Commit
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+[master e765ae0] Commit
+ 1 file changed, 5 deletions(-)
+[master 4806d49] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 42c5764] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7d49c19] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c926c16] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5909d4d] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 9c5db77] Commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 3082c4e] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master fa855ca] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 070bae9] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 84c612f] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3dd1875] Commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master e24b953] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 9d7bbe6] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master adc5dab] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master e57dd5a] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master e89c6f4] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5764746] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 4995030] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c343792] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master ee1ea18] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master fe220bb] Commit
+ 1 file changed, 5 insertions(+)
+[master 58165cd] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 2ec6070] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 22dba45] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c551872] Commit
+ 2 files changed, 1 insertion(+), 4 deletions(-)
+[master 4c34ed3] Commit
+ 1 file changed, 2 deletions(-)
+[master 1ae1aa2] Commit
+ 1 file changed, 1 insertion(+)
+[master 786434c] Commit
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+[master 32c3c4e] Commit
+ 2 files changed, 1 insertion(+), 16 deletions(-)
+ delete mode 100644 total.txt
+[master 48d802c] Commit
+ 1 file changed, 3 deletions(-)
+[master b9d66a0] Commit
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.Makefile.swp
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master d7d5dbc] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3735009] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 8f06907] Commit
+ 2 files changed, 21 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master 0856e0a] Commit
+ 1 file changed, 1 insertion(+)
+[master 1b0722b] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master eac0e3b] Commit
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+[master a7a49aa] Commit
+ 1 file changed, 3 deletions(-)
+[master c2d98d0] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master dfee619] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 9dc8c2d] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master e6a311e] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master acef874] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6d02e74] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master cad3e3b] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 8c5b2dd] Commit
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+[master de9ad05] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master e68a93e] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master ce0ed70] Commit
+ 1 file changed, 57 insertions(+), 11 deletions(-)
+[master 88c43f3] Commit
+ 1 file changed, 47 insertions(+), 44 deletions(-)
+[master af22005] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 712b3e0] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 607c05a] Commit
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master 5f7bd9a] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7154223] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6d01fa3] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master ff81a9f] Commit
+ 2 files changed, 20 insertions(+)
+ create mode 100644 total.txt
+[master fcb21dc] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master ce1f3d6] Commit
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master 5154d4b] Commit
+ 1 file changed, 5 insertions(+)
+[master a551b59] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 1f13e80] Commit
+ 2 files changed, 18 insertions(+), 3 deletions(-)
+ create mode 100644 total.txt
+[master c62476e] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 6fd4f06] Commit
+ 1 file changed, 7 insertions(+)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master 13b1cbf] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 9e2f253] Commit
+ 1 file changed, 2 insertions(+)
+[master db66604] Commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master eee1932] Commit
+ 1 file changed, 6 insertions(+)
+[master a665d49] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master f0d2200] Commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master 6fa5493] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 210b0c2] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 966475b] Commit
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+[master f2500bc] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master ecbc2be] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master fe2ddfc] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 2b319d3] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 71a8590] Commit
+ 1 file changed, 2 insertions(+)
+[master b11aa8f] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7292bbc] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 8ce82a8] Commit
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+[master 56065e7] Commit
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master 31a9e0c] Commit
+ 1 file changed, 1 insertion(+)
+[master a0c3627] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master bf75273] Commit
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+[master 1f5af5c] Commit
+ 1 file changed, 1 insertion(+)
+[master 027b1a1] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 9d84519] Commit
+ 2 files changed, 16 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master 73a6eb7] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master 0328dae] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 38e5353] Commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master 9c915f3] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 2259de3] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master bb0556f] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master a1e07bd] Commit
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	.test1-3.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master 75d4161] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 4f55e60] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6650577] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 56edcc3] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 03134dc] Commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 total.txt
+[master 538d935] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5e2a406] Commit
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[master 92a8874] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 34449ae] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 16c5053] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3067e5f] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 73dee79] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master a32c865] Commit
+ 2 files changed, 29 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master f678883] Commit
+ 1 file changed, 1 insertion(+)
+[master 50ec2d0] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 4eeb94e] Commit
+ 2 files changed, 38 insertions(+), 23 deletions(-)
+ create mode 100644 total.txt
+[master 12658c5] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c5d9483] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 049e2ee] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 057f5b9] Commit
+ 2 files changed, 24 insertions(+), 3 deletions(-)
+ create mode 100644 total.txt
+[master 9e4b65f] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c6aaa58] Commit
+ 1 file changed, 3 insertions(+)
+[master 0133d11] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0ecddcd] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master bb63346] Commit
+ 1 file changed, 9 insertions(+), 4 deletions(-)
+[master 029fecc] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 3d7b7f2] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 2fae119] Commit
+ 2 files changed, 23 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master 7636c1c] Commit
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+[master 944a21e] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 41f6483] Commit
+ 2 files changed, 29 insertions(+), 13 deletions(-)
+ create mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.MyMalloc.h.swp
+	.local.git.out
+	.local.total.out
+	.test0.c.swp
+	.test1-1.c.swp
+	.test1-3.c.swp
+	.test2.c.swp
+	.test3.c.swp
+	.test5.c.swp
+	MyMalloc.o
+	MyMalloc.so
+	diff.out
+	test0
+	test0.org.out
+	test0.out
+	test1
+	test1-1
+	test1-1.org.out
+	test1-1.out
+	test1-2
+	test1-2.org.out
+	test1-2.out
+	test1-3
+	test1-3.org.out
+	test1-3.out
+	test1-4
+	test1-4.org.out
+	test1-4.out
+	test1.org.out
+	test1.out
+	test10
+	test10.org.out
+	test10.out
+	test2
+	test2.org.out
+	test2.out
+	test3
+	test3.org.out
+	test3.out
+	test4
+	test4.org.out
+	test4.out
+	test5
+	test5.org.out
+	test5.out
+	test6
+	test6.org.out
+	test6.out
+	test7
+	test7.org.out
+	test7.out
+	test8
+	test8.org.out
+	test8.out
+	test9
+	test9.org.out
+	test9.out
+	total.out
+
+nothing added to commit but untracked files present
+[master e682a20] Commit
+ 1 file changed, 2 insertions(+)
+[master f19b288] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 92cdd91] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 77e94eb] Commit
+ 1 file changed, 2 insertions(+)
+[master 3280657] Commit
+ 1 file changed, 2 deletions(-)
+[master 8a6b750] Commit
+ 1 file changed, 5 insertions(+)
+[master ebd68cb] Commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 5245890] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4ce8942] Commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 497f14d] Commit
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+[master bc908b8] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master a65ed51] Commit
+ 2 files changed, 31 insertions(+), 1 deletion(-)
+ create mode 100644 total.txt
+[master 56efa38] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 22aaf8f] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 164ffc0] Commit
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+[master 73e122e] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0f6d440] Commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 082260a] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+[master 86ef74b] Commit
+ 2 files changed, 40 insertions(+), 29 deletions(-)
+ create mode 100644 total.txt
+[master eca5ba2] Commit
+ 1 file changed, 15 deletions(-)
+ delete mode 100644 total.txt
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test9.c.swp
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.MyMalloc.c.swp
+	.local.git.out
+	.local.total.out
+	.test9.c.swp
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.local.total.out
+
+nothing added to commit but untracked files present

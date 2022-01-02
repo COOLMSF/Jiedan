@@ -1,0 +1,4 @@
+Jarett Lee (lee2363@purdue.edu), Jordan Reed (reed226@purdue.edu), Max O'Cull (mocull@purdue.edu)
+Vector Power Defense
+Simplistic multiplayer tower defense and creep offense game in the browser.
+Implements Javascript, NodeJS, websockets, EaselJS, Gulp, ESLint, and Browserify

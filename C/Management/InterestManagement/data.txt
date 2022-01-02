@@ -1,0 +1,7 @@
+id:1
+姓名:coolder
+性别:male
+兴趣id:
+11兴趣类型:
+foo兴趣内容:
+bar

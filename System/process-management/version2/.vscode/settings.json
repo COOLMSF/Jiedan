@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "functional": "c",
+        "*.tcc": "c",
+        "chrono": "c",
+        "string_view": "c",
+        "__string": "c",
+        "locale": "c",
+        "memory": "c",
+        "optional": "c",
+        "iosfwd": "c",
+        "limits": "c",
+        "__availability": "c",
+        "__bit_reference": "c",
+        "__config": "c",
+        "__hash_table": "c",
+        "algorithm": "c",
+        "bitset": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "ratio": "c",
+        "streambuf": "c"
+    }
+}

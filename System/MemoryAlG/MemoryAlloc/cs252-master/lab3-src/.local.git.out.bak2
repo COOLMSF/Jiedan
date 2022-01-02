@@ -1,0 +1,104 @@
+
+M	.command.cc.swp
+D	.ctrl-c.cc.swp
+M	.shell.cc.swp
+D	.shell.l.swp
+M	.shell.y.swp
+D	.y.tab.cc.swp
+M	command.cc
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+[master 2bb4657] Commit
+ 6 files changed, 19 insertions(+), 10 deletions(-)
+ rename .shell.l.swp => .command.cc.swp (56%)
+ delete mode 100644 .ctrl-c.cc.swp
+ rename .y.tab.cc.swp => .shell.y.swp (64%)
+M	.command.cc.swp
+M	.local.git.out
+M	command.cc
+Your branch is up-to-date with 'origin/master'.
+[master abf9f63] Commit
+ 3 files changed, 9 insertions(+), 16 deletions(-)
+M	.local.git.out
+Your branch is up-to-date with 'origin/master'.
+[master 954b771] Commit
+ 1 file changed, 4 insertions(+)
+D	.command.cc.swp
+M	.local.git.out
+<<<<<<< HEAD
+D	.shell.cc.swp
+D	.shell.y.swp
+Your branch is up-to-date with 'origin/master'.
+[master 7d527bc] Commit
+ 4 files changed, 7 insertions(+)
+ delete mode 100644 .command.cc.swp
+ delete mode 100644 .shell.cc.swp
+ delete mode 100644 .shell.y.swp
+=======
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master d80e2f1] Commit
+ 2 files changed, 16 insertions(+), 11 deletions(-)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master 94ab3f3] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master b69ba9b] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master 86fde02] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+M	.local.git.out
+M	shell.y
+M	test-shell/testall.out
+Your branch is up-to-date with 'origin/master'.
+[master 03ad723] Commit
+ 3 files changed, 11 insertions(+), 1 deletion(-)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master 83f2bf0] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master 9cf9286] Commit
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master 45ba096] Commit
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+M	.local.git.out
+Your branch is up-to-date with 'origin/master'.
+[master 53ff589] Commit
+ 1 file changed, 4 insertions(+)
+M	.local.git.out
+Your branch is up-to-date with 'origin/master'.
+[master bc8e2ca] Commit
+ 1 file changed, 4 insertions(+)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master 583a151] Commit
+ 2 files changed, 22 insertions(+)
+M	.local.git.out
+Your branch is up-to-date with 'origin/master'.
+[master 8ec7728] Commit
+ 1 file changed, 4 insertions(+)
+M	.local.git.out
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+[master f41cfbf] Commit
+ 2 files changed, 24 insertions(+), 7 deletions(-)
+M	.local.git.out
+M	command.hh
+M	shell.y
+Your branch is up-to-date with 'origin/master'.
+>>>>>>> parent of 7311ef9... Commit

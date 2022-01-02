@@ -1,0 +1,16 @@
+#!/bin/bash
+
+function backup() {
+    touch "$1"
+    org="$(md5sum $1)"
+    while [ 1 == 1 ]; do
+        new="$(md5sum $1)"
+        if [ "$org" != "$new" ]; then
+            cp "$1" ".${1}_backup"
+            org="$new"
+        fi
+        sleep "$2"
+    done
+}
+
+backup test.txt 1

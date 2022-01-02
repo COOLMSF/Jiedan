@@ -1,0 +1,1446 @@
+[master c202def] Lab 2 commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testPassword
+
+nothing added to commit but untracked files present
+[master 155657a] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 5aa67af] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master dd74e60] Lab 2 commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master 1c71715] Lab 2 commit
+ 1 file changed, 8 insertions(+)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testPassword
+
+nothing added to commit but untracked files present
+[master b0ae1d8] Lab 2 commit
+ 1 file changed, 2 insertions(+)
+[master 310380c] Lab 2 commit
+ 1 file changed, 7 insertions(+)
+[master 552879a] Lab 2 commit
+ 1 file changed, 14 insertions(+)
+[master 96bde16] Lab 2 commit
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+[master c143a38] Lab 2 commit
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+[master 7ce1be7] Lab 2 commit
+ 1 file changed, 68 insertions(+), 58 deletions(-)
+ rewrite pwcheck.sh (84%)
+[master 825e936] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4eee8d7] Lab 2 commit
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+[master fb5f2f0] Lab 2 commit
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+[master 45f1280] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 956f32b] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 9ceef62] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 9e15182] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 4e4ae51] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 225f0df] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 79b5e92] Lab 2 commit
+ 1 file changed, 1 insertion(+)
+[master 3c5b97c] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 465d113] Lab 2 commit
+ 1 file changed, 1 insertion(+)
+[master 962e5c6] Lab 2 commit
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[master af442c4] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	10_million_password_list_top_1000000.txt
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+[master 9e1028d] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master a170e5c] Lab 2 commit
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+[master 21eb11b] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 333aac6] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master f978321] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	10_million_password_list_top_1000000.txt
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	10_million_password_list_top_1000000.txt
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+[master 0065e26] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+[master 53490a9] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 45a9a53] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 01ec4f4] Lab 2 commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 48bf708] Lab 2 commit
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+[master 5e85730] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 8d0537a] Lab 2 commit
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+[master ff540ea] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 83a8bd8] Lab 2 commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+[master f5909f5] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	.testAll.swp
+	10_million_password_list_top_1000000.txt
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+
+nothing added to commit but untracked files present
+[master 4cdf484] Lab 2 commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 854a8f5] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 57f6fbd] Lab 2 commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 2f2aca3] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.pwcheck.sh.swp
+	testAll
+	testBroken
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 9694402] Lab 2 commit
+ 1 file changed, 25 insertions(+), 9 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master afa0ad8] Lab 2 commit
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[master b23381a] Lab 2 commit
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 37298d3] Lab 2 commit
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 543e9c6] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7ccf4b3] Lab 2 commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 9df9a11] Lab 2 commit
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+[master 1630a1f] Lab 2 commit
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master f09191e] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 0dcca45] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master eb51af3] Lab 2 commit
+ 1 file changed, 6 insertions(+)
+[master 3f628a3] Lab 2 commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master b2a2849] Lab 2 commit
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 8f79ac8] Lab 2 commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master f92002a] Lab 2 commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 3587f83] Lab 2 commit
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 580c65c] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master 40946a5] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master fea6e62] Lab 2 commit
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present
+[master eb561a6] Lab 2 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	.local.git.out
+	.monitor.sh.swp
+	.pwcheck.sh.swp
+	.script-consumer.sh.swp
+	reports_dir/
+	testAll
+	testGrade
+	testPass
+	testPasswords
+	tests/
+
+nothing added to commit but untracked files present

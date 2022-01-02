@@ -1,0 +1,112 @@
+total 676
+drwxr-s--- 4 mocull mocull   4096 Oct  1 15:07 .
+drwxr-s--- 5 mocull mocull   4096 Sep 26 10:56 ..
+-rw-r----- 1 mocull mocull      0 Sep 30 16:51 cat
+-rwxr-x--- 1 mocull mocull  21280 Sep 26 10:57 cat_grep
+-rw-r----- 1 mocull mocull   2918 Sep 26 10:56 cat_grep.cc
+-rw-r----- 1 mocull mocull   4713 Oct  1 15:07 command.cc
+-rw-r----- 1 mocull mocull  24576 Oct  1 15:07 .command.cc.swp
+-rw-r----- 1 mocull mocull    579 Sep 30 00:38 command.hh
+-rw-r----- 1 mocull mocull  12288 Sep 30 16:15 .command.hh.swp
+-rw-r----- 1 mocull mocull  32240 Oct  1 15:07 command.o
+-rwxr-x--- 1 mocull mocull  13088 Sep 26 10:57 ctrl-c
+-rw-r----- 1 mocull mocull    653 Sep 26 10:56 ctrl-c.cc
+-rw-r----- 1 mocull mocull     27 Sep 30 16:50 echo
+drwxr-s--- 8 mocull mocull   4096 Oct  1 15:07 .git
+-rw-r----- 1 mocull mocull    322 Sep 26 10:56 .gitignore
+-rw-r----- 1 mocull mocull      0 Sep 30 16:51 grep
+-rw-r----- 1 mocull mocull     15 Sep 26 10:56 .hello
+-rw-r----- 1 mocull mocull    182 Sep 26 10:56 keyboard-example.c
+-rw-r----- 1 mocull mocull  47363 Sep 26 12:37 lex.yy.cc
+-rw-r----- 1 mocull mocull 106104 Sep 26 12:37 lex.yy.o
+-rw-r----- 1 mocull mocull  18292 Oct  1 15:07 .local.git.out
+-rw-r----- 1 mocull mocull   1997 Sep 26 10:56 Makefile
+-rw-r----- 1 mocull mocull   3161 Sep 26 10:56 read-line.c
+-rw-r----- 1 mocull mocull    415 Sep 26 10:56 read-line-example.c
+-rwxr-x--- 1 mocull mocull  12264 Sep 26 10:57 regular
+-rw-r----- 1 mocull mocull   1747 Sep 26 10:56 regular.cc
+-rwxr-x--- 1 mocull mocull 128072 Oct  1 15:07 shell
+-rw-r----- 1 mocull mocull    105 Sep 26 10:56 shell.cc
+-rw-r----- 1 mocull mocull    655 Sep 26 12:37 shell.l
+-rw-r----- 1 mocull mocull   2928 Sep 26 10:57 shell.o
+-rw-r----- 1 mocull mocull   3183 Sep 30 16:13 shell.y
+-rw-r----- 1 mocull mocull  12288 Sep 30 16:13 .shell.y.swp
+-rw-r----- 1 mocull mocull    687 Sep 26 10:56 simpleCommand.cc
+-rw-r----- 1 mocull mocull    305 Sep 26 10:56 simpleCommand.hh
+-rw-r----- 1 mocull mocull   7928 Sep 26 10:57 simpleCommand.o
+-rw-r----- 1 mocull mocull      0 Oct  1 15:07 testOut
+drwxr-s--- 2 mocull mocull   4096 Sep 29 17:56 test-shell
+-rw-r----- 1 mocull mocull    495 Sep 26 10:56 tty-raw-mode.c
+-rw-r----- 1 mocull mocull  48949 Sep 30 16:13 y.tab.cc
+-rw-r----- 1 mocull mocull   2897 Sep 30 16:13 y.tab.hh
+-rw-r----- 1 mocull mocull  88224 Sep 30 16:13 y.tab.o
+cat
+cat_grep
+cat_grep.cc
+command.cc
+command.hh
+command.o
+ctrl-c
+ctrl-c.cc
+echo
+grep
+keyboard-example.c
+lex.yy.cc
+lex.yy.o
+Makefile
+out2
+read-line.c
+read-line-example.c
+regular
+regular.cc
+shell
+shell.cc
+shell.l
+shell.o
+shell.y
+simpleCommand.cc
+simpleCommand.hh
+simpleCommand.o
+testall.out
+testOut
+test-shell
+test.txt
+tty-raw-mode.c
+y.tab.cc
+y.tab.hh
+y.tab.o
+cat
+cat_grep
+cat_grep.cc
+command.cc
+command.hh
+command.o
+ctrl-c
+ctrl-c.cc
+echo
+grep
+keyboard-example.c
+lex.yy.cc
+lex.yy.o
+Makefile
+out2
+read-line.c
+read-line-example.c
+regular
+regular.cc
+shell
+shell.cc
+shell.l
+shell.o
+shell.y
+simpleCommand.cc
+simpleCommand.hh
+simpleCommand.o
+testall.out
+testOut
+test-shell
+test.txt
+tty-raw-mode.c
+y.tab.cc
+y.tab.hh
+y.tab.o

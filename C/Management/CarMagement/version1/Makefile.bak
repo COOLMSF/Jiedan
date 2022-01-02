@@ -1,0 +1,16 @@
+all: main
+
+clean:
+	@rm *.o main
+
+main: main.o carmanagement.o arraylist.o
+	clang -g $^ -o $@
+
+main.o: main.c 
+	clang -g -c $< -o $@
+
+carmanagement.o: carmanagement.c carmanagement.h
+	clang -g -c $< -o $@
+
+arraylist.o: arraylist.c arraylist.h
+	clang -g -c $< -o $@

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/arraylist.h
+
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/bookmanagement.c
+stdlib.h
+-
+select_sort.h
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/select_sort.h
+arraylist.h
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/arraylist.h
+bookmanagement.h
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/bookmanagement.h
+
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/bookmanagement.h
+arraylist.h
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/arraylist.h
+stdio.h
+-
+
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/main.c
+stdio.h
+-
+stdlib.h
+-
+bookmanagement.h
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/bookmanagement.h
+
+/Users/coolder/Documents/JieDan/C/BookManagement/Array/select_sort.h
+stdio.h
+-
+

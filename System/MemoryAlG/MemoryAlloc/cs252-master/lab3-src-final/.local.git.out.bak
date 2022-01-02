@@ -1,0 +1,50 @@
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+[master 47f01d7] Commit
+ 1 file changed, 2 insertions(+)
+M	.local.git.out
+D	cat_grep
+D	command.o
+D	ctrl-c
+D	lex.yy.cc
+D	lex.yy.o
+D	regular
+D	shell
+D	shell.o
+D	simpleCommand.o
+D	y.tab.cc
+D	y.tab.hh
+D	y.tab.o
+Your branch is up-to-date with 'origin/master'.
+<<<<<<< HEAD
+[master 084d27b] Commit
+ 13 files changed, 16 insertions(+), 3669 deletions(-)
+ delete mode 100755 cat_grep
+ delete mode 100644 command.o
+ delete mode 100755 ctrl-c
+ delete mode 100644 lex.yy.cc
+ delete mode 100644 lex.yy.o
+ delete mode 100755 regular
+ delete mode 100755 shell
+ delete mode 100644 shell.o
+ delete mode 100644 simpleCommand.o
+ delete mode 100644 y.tab.cc
+ delete mode 100644 y.tab.hh
+ delete mode 100644 y.tab.o
+M	.local.git.out
+Your branch is up-to-date with 'origin/master'.
+[master 772ef6e] Commit
+ 1 file changed, 16 insertions(+)
+M	.local.git.out
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+[master 4bbd496] Commit
+ 1 file changed, 5 insertions(+)
+M	.local.git.out
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+[master 515ec8f] Commit
+ 1 file changed, 5 insertions(+)
+=======
+Your branch is up-to-date with 'origin/master'.
+>>>>>>> 10c5ee264b1411e3c252447d8fe885ff3ff9f4d1

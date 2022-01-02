@@ -1,0 +1,349 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#include "slist.h"
+
+#define MAXNAME 254
+#define MAXBUF 1024
+#define NCOURSE 5
+
+struct _StuInfo {
+    int id;
+    char name[MAXNAME];
+    char major[MAXNAME];
+    double score[NCOURSE];
+    double total_score;
+    double avg_score;
+};
+typedef struct _StuInfo StuInfo;
+
+void welcome();
+void print_modify_info();
+int insert_info(SListEntry **list);
+int delete_info(SListEntry **list);
+int delete_info_by_id(SListEntry **list, int id);
+int modify_info(SListEntry **list);
+int query_info(SListEntry **list);
+int query_info_by_id(SListEntry **list, int id);
+int callback_check_id(SListValue a, SListValue b);
+
+int swap_entry(SListEntry *entry1, SListEntry *entry2);
+int sorted_by_total_score(SListEntry **info_list);
+int print_score(SListEntry **info_list);
+
+int main(int argc, char const* argv[])
+{
+    int input;
+    // 信息链表
+    SListEntry *info_list = NULL;
+
+    while (1) {
+        welcome();
+        puts("");
+        puts("输入你的选择:");
+        scanf("%d", &input);
+
+        switch (input) {
+            case 1:
+                // 插入
+                insert_info(&info_list);
+                break;
+            case 2:
+                // 删除
+                delete_info(&info_list);
+                break;
+            case 3:
+                // 修改
+                modify_info(&info_list);
+                break;
+            case 4:
+                // 查询
+                query_info(&info_list);
+                break;
+            case 5:
+                sorted_by_total_score(&info_list);
+                print_score(&info_list);
+                break;
+            case 6:
+                exit(EXIT_FAILURE);
+            default:
+                puts("-------------------");
+                puts("输入错误");
+                puts("-------------------");
+                break;
+        }
+    }
+
+    slist_free(info_list);
+    return 0;
+}
+
+void welcome()
+{
+    puts("");
+    puts("-------------------");
+    puts("欢迎使用成绩管理系统");
+    puts("1:) 添加学生信息");
+    puts("2:) 删除学生信息");
+    puts("3:) 修改学生信息");
+    puts("4:) 查询学生信息");
+    puts("5:) 学生成绩排序");
+    puts("6:) 退出");
+    puts("-------------------");
+    puts("");
+}
+
+int insert_info(SListEntry **list)
+{
+    StuInfo *stu_info;
+    SListEntry *p;
+
+    stu_info = malloc(sizeof (struct _StuInfo));
+    if (stu_info == NULL) {
+        perror("malloc");
+        exit(EXIT_FAILURE);
+    }
+
+    puts("输入你的id:");
+    scanf("%d", &stu_info->id);
+    puts("输入你的名字:");
+    scanf("%s", stu_info->name);
+    puts("输入你的专业:");
+    scanf("%s", stu_info->major);
+    puts("输入课程成绩:");
+
+    for (int i = 0; i < NCOURSE; i++) {
+        scanf("%lf", stu_info->score+i);
+    }
+    puts("");
+
+    double avg_score = 0.0;
+    double total_score = 0.0;
+
+    for (int i = 0; i < NCOURSE; i++)
+        total_score += stu_info->score[i];
+    avg_score = total_score / NCOURSE;
+
+    // 插入总分，平均分
+    stu_info->total_score = total_score;
+    stu_info->avg_score = avg_score;
+
+    p = slist_find_data(*list, callback_check_id, (SListValue *)&stu_info->id);
+    if (p == NULL) {
+        if (slist_append(list, (SListValue *)stu_info) != NULL) {
+            puts("-------------------");
+            puts("插入成功");
+            puts("-------------------");
+            return 1;
+        } else {
+            puts("-------------------");
+            puts("插入失败");
+            puts("-------------------");
+            return 0;
+        }
+    } else {
+        puts("信息已经存在");
+        return -1;
+    }
+}
+
+int delete_info(SListEntry **entry)
+{
+    int id;
+
+    puts("输入要删除信息的id:");
+    scanf("%d", &id);
+    delete_info_by_id(entry, id);
+
+    return 1;
+}
+
+int delete_info_by_id(SListEntry **entry, int id)
+{
+    SListEntry *p;
+    SListValue *value;
+    struct _StuInfo *stu_info;
+
+    p = slist_find_data(*entry, callback_check_id, (SListValue *)&id);
+    if (p == NULL) {
+        puts("-------------------");
+        puts("信息不存在");
+        puts("-------------------");
+        return -1;
+    } else {
+        if (slist_remove_entry(entry, p) == 0) {
+            puts("-------------------");
+            puts("删除数据失败");
+            puts("-------------------");
+            return -1;
+        } else {
+            puts("-------------------");
+            puts("删除成功");
+            puts("-------------------");
+            return 1;
+        }
+    }
+    puts("");
+}
+
+int callback_check_id(SListValue a, SListValue b)
+{
+    if (((struct _StuInfo *)a)->id == *(int *)b)
+        return 1;
+    else
+        return 0;
+}
+
+int query_info(SListEntry **entry)
+{
+    int id;
+
+    puts("请输入要查询的id:");
+    scanf("%d", &id);
+    query_info_by_id(entry, id);
+
+    return 1;
+}
+
+int query_info_by_id(SListEntry **entry, int id)
+{
+    SListEntry *p;
+	SListEntry *rover;
+    SListValue *data;
+
+    p = slist_find_data(*entry, callback_check_id, (SListValue *)&id);
+    if (p == NULL) {
+        puts("-------------------");
+        puts("未查询到数据");
+        puts("-------------------");
+        return -1;
+    } else {
+        data = slist_data(p);
+
+        puts("----------------------");
+        printf("查询结果如下\n");
+        // 这里需要强制转换
+        printf("id:%d\n", ((struct _StuInfo *)data)->id);
+        printf("姓名:%s\n", ((struct _StuInfo *)data)->name);
+        printf("专业:%s\n", ((struct _StuInfo *)data)->major);
+        printf("成绩总分:%lf\n", ((struct _StuInfo *)data)->total_score);
+        printf("成绩平均分:%lf\n", ((struct _StuInfo *)data)->avg_score);
+        puts("----------------------");
+    }
+    return 1;
+}
+
+int modify_info(SListEntry **entry)
+{
+    int id;
+    SListEntry *p;
+
+    puts("输入你要修改的id:");
+    scanf("%d", &id);
+
+    p = slist_find_data(*entry, callback_check_id, (SListValue *)&id);
+    if (p == NULL) {
+        puts("-------------------");
+        puts("信息不存在");
+        puts("-------------------");
+        return -1;
+    } else {
+        int c;
+
+        while (1) {
+            print_modify_info();
+            puts("");
+            puts("输入你的选择:");
+            scanf("%d", &c);
+
+            switch (c) {
+                case 1:
+                    puts("输入修改后的id:");
+                    scanf("%d", &((struct _StuInfo *)p->data)->id);
+                    puts("修改成功");
+                    break;
+                case 2:
+                    puts("输入修改后的姓名:");
+                    scanf("%s", ((struct _StuInfo *)p->data)->name);
+                    puts("修改成功");
+                    break;
+                case 3:
+                    puts("输入修改后的专业:");
+                    scanf("%s", ((struct _StuInfo *)p->data)->major);
+                    puts("修改成功");
+                    break;
+                case 4:
+                    puts("输入修改后的分数:");
+
+                    for (int i = 0; i < NCOURSE; i++)
+                        scanf("%lf", &((struct _StuInfo *)p->data)->score[i]);
+                    puts("修改成功");
+
+                    // 修改完成后需要重新计算总分和平均分
+                    double total_score = 0.0;
+                    double avg_score = 0.0;
+
+                    for (int i = 0; i < NCOURSE; i++)
+                        total_score += ((struct _StuInfo *)p->data)->score[i];
+                    avg_score = total_score / NCOURSE;
+
+                    // 重新赋值
+                    ((struct _StuInfo *)p->data)->total_score = total_score;
+                    ((struct _StuInfo *)p->data)->avg_score = avg_score;
+                    break;
+                case 5:
+                    goto end;
+                default:
+                    puts("输入有误");
+            }
+        }
+    }
+
+end:
+    puts("");
+    puts("");
+
+}
+
+void print_modify_info()
+{
+    puts("1:) 修改id");
+    puts("2:) 修改姓名");
+    puts("3:) 修改专业");
+    puts("4:) 修改分数");
+    puts("5:) 退出修改");
+}
+
+int sorted_by_total_score(SListEntry **info_list)
+{
+    SListEntry *p;
+    SListEntry *q;
+
+    // 冒泡排序
+    for (p = *info_list; p != NULL; p = slist_next(p))
+        for (q = *info_list; q != NULL; q = slist_next(q)) {
+            double p_total_score = ((struct _StuInfo *)p->data)->total_score;
+            double q_total_score = ((struct _StuInfo *)q->data)->total_score;
+            
+            if (p_total_score > q_total_score)
+                swap_entry(&p, &q);
+    }
+}
+
+int swap_entry(SListEntry **entry1, SListEntry **entry2)
+{
+    SListEntry *tmp;
+
+    tmp = *entry1;
+    *entry1 = *entry2;
+    *entry2 = tmp;
+}
+
+int print_score(SListEntry **info_list)
+{
+    SListEntry *p;
+
+    for (p = *info_list; p != NULL; p = slist_next(p))
+        printf("%lf ", ((struct _StuInfo *)p->data)->total_score);
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries/>
+  <UserdefinedSymbols/>
+  <LuaScript>if not openProcess('GTA5.exe') then sleep(250) if getOpenedProcessID()==0 then getAutoAttachList().add('GTA5.exe') sleep(250) end end
+autoAssemble([[
+aobscanmodule(LocalScriptsPTR,GTA5.exe,48 8B 05 ? ? ? ? 8B CF 48 8B 0C C8 39 59 68)
+registerSymbol(LocalScriptsPTR)
+aobscanmodule(GlobalPTR,GTA5.exe,4C 8D 05 ? ? ? ? 4D 8B 08 4D 85 C9 74 11)
+registerSymbol(GlobalPTR)
+]])
+ 
+local _Address=getAddress('LocalScriptsPTR') _Address=_Address+readInteger(_Address+3)+7
+unregisterSymbol('LocalScriptsPTR') registerSymbol('LocalScriptsPTR',_Address,true)
+_Address=getAddress('GlobalPTR') _Address=_Address+readInteger(_Address+3)+7
+unregisterSymbol('GlobalPTR') registerSymbol('GlobalPTR',_Address,true)
+function GA(Index) local p=getAddress('GlobalPTR') if not p then return end return readQword(p+(8*(Index&gt;&gt;0x12&amp;0x3F)))+(8*(Index&amp;0x3FFFF)) end
+function PLAYER_ID() return readInteger(GA(2441237)) end --// returns the player id
+function GetLocalScript(Name)
+	local a=getAddress('LocalScriptsPTR')
+	for i=0,52,1 do
+		local p=readPointer(readPointer(a)+(i*0x8))
+		local lc_p,lc_n=readInteger(p+0xB0),readString(p+0xD0)
+		if lc_n==nil then goto continue
+		elseif lc_n==Name and lc_p~=0 then return p+0xB0 end
+		::continue::
+	end
+	return false
+end
+
+CST={} -- Casino Slots
+function CST.LA(Index) return readQword(getAddress('casino_slots_ptr'))+(8*Index) end
+function CST.GL(Index) return readInteger(CST.LA(Index))end
+function CST.SL(Index,Value) writeInteger(CST.LA(Index),Value)end
+	  
+CTCP={} -- Casino Three Card Poker
+function CTCP.LA(Index) return readQword(getAddress('three_card_poker_ptr'))+(8*Index) end
+function CTCP.GL(Index) return readInteger(CTCP.LA(Index)) end
+function CTCP.SL(Index,Value) writeInteger(CTCP.LA(Index),Value) end
+ 
+function CST.Set_Jackpot_On_All_Slots(ID) --// ID 0-7 need only to be set once
+	local l_address=GetLocalScript('casino_slots')
+	if not l_address then print("No Local Address found for casino_slots") return end
+	unregisterSymbol('casino_slots_ptr') registerSymbol('casino_slots_ptr',l_address,true)
+	for f=0,2,1 do
+		for i=0,63,1 do CST.SL(1356+1+1+(f*65)+1+i,ID)end
+	end
+end
+	  
+function CTCP.Straight_Flush()
+ 	local l_address=GetLocalScript("three_card_poker")
+        if not l_address then print("No Local Address found for three_card_poker") return end
+        unregisterSymbol('three_card_poker_ptr') registerSymbol('three_card_poker_ptr',l_address,true)
+        local current_table=CTCP.GL(757+1+(PLAYER_ID()*9)+2)
+        local i=124+168+1+(current_table*55)+2
+        CTCP.SL(i+1,50) CTCP.SL(1848,50)  -- 1st Card
+        CTCP.SL(i+2,51) CTCP.SL(1849,51)  -- 2nd Card
+        CTCP.SL(i+3,52) CTCP.SL(1850,52)  -- 3rd Card
+end
+    
+hotkey=createHotkey(function() CST.Set_Jackpot_On_All_Slots(0)end, VK_NUMPAD1)
+hotkey2=createHotkey(function() CTCP.Straight_Flush()end, VK_NUMPAD2)
+ 
+</LuaScript>
+</CheatTable>

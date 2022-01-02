@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function quota_left() {
+    quota="$(quota | awk 'NR == 3 { print $2 };')"
+    block="$(quota | awk 'NR == 3 { print $3 };')"
+    #left="$(($block - $quota))"
+    echo "$(($block - $quota))K"
+}
+
+quota_left

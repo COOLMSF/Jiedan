@@ -1,0 +1,134 @@
+aaa
+afl
+s main
+s sym.main
+VV
+pdf
+VV
+vV
+vv
+VV
+q
+aaa
+afl
+q
+aaa
+afl
+s main
+VV
+q
+aaa
+alf
+afl
+s main
+pdf
+q
+aaa
+afl
+s sym.swap
+pdf
+q
+aaa
+afl
+pdf
+x
+i
+q
+aaa
+pdf
+afl
+s sym._init 
+pdf
+VV
+q
+aaa
+iz
+ix
+x
+s -100
+x
+x 100
+x 1000
+x 2000
+afl
+pdf @ sym._start
+q
+aaa
+pdf
+x
+q
+pdf
+x
+aaa
+x
+pdf
+x
+x 200
+x 300
+x 2000
+x 1000
+is
+iS
+x 1000
+iS
+s 0x00400600
+x
+q
+aaa
+afl
+x
+x 100
+x 1000
+q
+x
+pdf
+q
+aaa
+pdf
+iS
+x 100
+x 1000
+iS
+s 0x00400600
+x
+x 300
+iS
+q
+aaa
+afl
+pdf
+is
+q
+x
+q
+aaa
+ioS
+iS
+s 0x00400600
+x
+pdf
+x
+x 1000
+q
+s 0x6f4
+x
+iS
+s 0x00400600
+x
+x 1000
+q
+i
+x
+x 1000
+q
+aaa
+pdf
+x
+ls
+q
+aa
+afl
+iS
+iE
+ie
+q

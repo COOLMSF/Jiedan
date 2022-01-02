@@ -1,0 +1,23 @@
+This is an elf infector based on Silvio's algorithm with some extra things.
+You can edit parasite.h to put your data. The data can be extract using ./extra elf-program -o save.txt.
+oblique 2010, coolder 2021
+
+------------------------------------------------------------------------------------------------
+Here's an example to hide an image into the program called program-to-injected
+
+1. convert image to shellcode string.
+hexdump -v -e '"\\""x" 1/1 "%02x" ""' a.png > shellcode
+
+(encrypted shellcode string (do it later))
+
+2. copy shellcode string to parasite.h.
+
+3. injecting data to program
+./injector program-to-injected
+
+4. extract data from injected program (data is hide in the end of .eh_frame). This program will only work 
+on non-stripped and infected binaries 
+python extract_data.py program-to-injected save.jpg
+
+Still in process...
+

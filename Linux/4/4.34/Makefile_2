@@ -1,0 +1,7 @@
+test : 
+	gcc -ffreestanding -nostartfiles -nostdlib -e _start -o test *.c
+
+.PHONY : test
+
+clean :
+	rm test

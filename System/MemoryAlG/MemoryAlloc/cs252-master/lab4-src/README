@@ -1,0 +1,15 @@
+Step 3
+Alternating blocks of A's, B's, and C's are printed. Process switching is somewhat visible via the blocks that the letters print in.
+
+Step 5
+The main thread gets thrown into a while loop which blocks the program from progressing to the point at which it would create the threads.
+
+                                                 | Real  | User  | Kernel |
+-------------------------------------------------+-------+-------+--------+
+pthread_mutex()                                  | 3.158 | 3.660 | 2.588  |
+spin_lock() (count_spin with pthread_yield())    | 1.750 | 2.688 | 0.700  |
+spin_lock() (count_spin without pthread_yield()) | 2.700 | 5.360 | 0.000  |
+
+The user time without yielding the thread exceeds the the user time with thread yielding because without yielding, the thread uses 100% of the time busy waiting. The CPU control is never returned to other processes, instead it is simply burned.
+
+When a mutex is used, the context is switched to other processes. When this occurs, kernel mode is required. Thus mutex uses more kernel/system time than user time.

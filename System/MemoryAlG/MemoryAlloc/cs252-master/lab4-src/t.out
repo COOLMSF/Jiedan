@@ -1,0 +1,34 @@
+execve("./hello-syscall", ["hello-syscall"], [/* 35 vars */]) = 0
+brk(NULL)                               = 0x1090000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19faf22000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=89750, ...}) = 0
+mmap(NULL, 89750, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f19faf0c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f19fa935000
+mprotect(0x7f19faaf5000, 2097152, PROT_NONE) = 0
+mmap(0x7f19facf5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f19facf5000
+mmap(0x7f19facfb000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f19facfb000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19faf0b000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19faf0a000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f19faf09000
+arch_prctl(ARCH_SET_FS, 0x7f19faf0a700) = 0
+mprotect(0x7f19facf5000, 16384, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7f19faf24000, 4096, PROT_READ) = 0
+munmap(0x7f19faf0c000, 89750)           = 0
+write(1, "Hello World without syscall\n", 28) = 28
+write(1, "Hello World with syscall\n", 25) = 25
+fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 64), ...}) = 0
+brk(NULL)                               = 0x1090000
+brk(0x10b1000)                          = 0x10b1000
+write(1, "Hello World with printf\n", 24) = 24
+exit_group(24)                          = ?
++++ exited with 24 +++

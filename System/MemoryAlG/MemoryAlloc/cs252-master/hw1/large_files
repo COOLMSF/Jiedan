@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function large_files() {
+    #ls -sSh | head -n "$(($1 + 2))" | tail -n "$1" | awk '{ print $2 };'
+    ls -dasSh * .* | head -n "$(($1 + 1))" | tail -n "$1" | awk '{ print $2 };'
+}
+
+large_files 5

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Array.dir/arraylist.c.o CMakeFiles/Array.dir/bookmanagement.c.o CMakeFiles/Array.dir/main.c.o CMakeFiles/Array.dir/select_sort.c.o -o Array 

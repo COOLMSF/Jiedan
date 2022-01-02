@@ -1,0 +1,16 @@
+#!/bin/bash
+
+function valid() {
+    regex="^(1\s){0,1}\([0-9]{3}\) [0-9]{3} [0-9]{4}$"
+    if [[ "$1" =~ $regex ]]; then
+        echo "valid"
+    else
+        echo "invalid"
+    fi
+}
+
+valid "(765) 123 4567"
+valid "1 (765) 123 4567"
+valid "1(765) 123 4567"
+valid "123 456 78910"
+valid "123 4567"

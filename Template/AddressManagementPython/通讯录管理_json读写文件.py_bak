@@ -1,0 +1,113 @@
+import json
+
+#存入已经含有的号码
+dict={'小明':['001','广州'],
+      '小红':['002','深圳'],
+      '小王':['003','北京']}
+
+
+#操作菜单模块
+def operate_menu():
+    print("操作菜单："
+          " 1：添加"
+          " 2：删除"
+          " 3：修改"
+          " 4：搜索"
+          " 5：退出")
+    print("\n")
+
+
+#添加操作模块
+def operate_add(dict):
+    a=input("要添加好友的名字：")    
+    if a in dict:
+        print("{}已经在电话簿中".format(a))               
+    else:
+       b=input("输入号码：")
+       c=input("输入地址：")
+       dict1={a:[b,c]}
+       dict.update(dict1)
+       print("成功添加 {0:} 为好友".format(a))
+       print("\n")
+      
+       
+
+#删除好友模块   
+def operate_delect(dict):
+        a=input("要删除好友的名字：")
+        if a in dict:
+            del dict[a]
+            print("成功删除 {0:}".format(a))
+        else:
+            print("该好友不在电话簿中")
+
+#修改好友信息
+def operate_modify(dict):
+        a=input("你要修改的联系人姓名：")
+        
+        if a in dict:
+                
+                b=input("请输入修改后的号码：")
+                c=input("请输入修改后的地址：")
+                dict[a][0]=b
+                dict[a][1]=c
+                print("修改后的信息:\n\n"+a+"\t"+dict[a][0]+"\t"+dict[a][1]+"\n")
+                                            
+        else:
+                print("该好友不在电话簿中")
+
+
+
+
+            
+#搜索好友模块
+def operate_search(dict):
+    a=input("输入要查找的好友的姓名：")
+    if a in dict:
+        print(a+"\t"+dict[a][0]+"\t"+dict[a][1]+"\n")
+    else:
+        print("该好友不在电话簿中")
+              
+#将电话簿打印
+def save(dict):
+    json.dump(dict, open("result.txt", "w"), ensure_ascii=False)
+    print("保存成功")
+#将电话簿打印
+# def save(dict):
+#     fo=open("telephon.txt","w+",encoding='utf-8')
+#     fo.read()
+#     ls=["姓名","号码","地址"]
+#     for i in ls:
+#         fo.write(i+"\t")
+#     fo.write("\n")
+#     
+#     for i in dict:
+#         fo.write(i+"\t"+dict[i][0]+"\t"+dict[i][1]+'\n')
+#         print(i+" \t"+dict[i][0]+"\t"+dict[i][1]+'\n')
+#     fo.close()
+      
+
+print("姓名\t号码\t地址\t")
+for i in dict:
+    print(i+" \t"+dict[i][0]+"\t"+dict[i][1]+'\n')
+              
+print("\n")
+    
+
+
+#进行操作     
+while True:
+    operate_menu()    
+    a=eval(input("输入要进行的操作："))
+    if a==1:
+        operate_add(dict)
+    elif a==2:
+        operate_delect(dict)
+    elif a==3:
+        operate_modify(dict)       
+    elif a==4:
+        operate_search(dict)        
+    elif a==5:
+        save(dict)
+        break        
+         
