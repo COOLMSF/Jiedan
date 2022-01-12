@@ -65,7 +65,20 @@ int main(int argc, char const* argv[])
     SListEntry *book_list = NULL;
     // 用户链表，用于存储用户
     SListEntry *user_list = NULL;
-    struct _User *user;
+    struct _User *user, *current_user;
+
+    // while (1) {
+    //     pre_welcome();
+    //     puts("输入你的选择:");
+    //     scanf("%d", &input);
+
+    //     switch (input) {
+    //         case 1:
+    //             login();
+    //             break;
+    //     }
+    // }
+    
 
     while (1) {
         welcome();
@@ -157,6 +170,15 @@ int main(int argc, char const* argv[])
 
     slist_free(book_list);
     return 0;
+}
+
+void pre_welcome()
+{
+    puts("1:) 登陆");
+    puts("2:) 注册");
+    puts("3:) 忘记密码");
+    puts("4:) Hack me");
+    puts("5:) Bye me a coffee");
 }
 
 void welcome()

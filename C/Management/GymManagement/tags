@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ArrayList	arraylist.h	/^typedef struct _ArrayList ArrayList;$/;"	t	typeref:struct:_ArrayList
+ArrayListCompareFunc	arraylist.h	/^typedef int (*ArrayListCompareFunc)(ArrayListValue value1,$/;"	t
+ArrayListEqualFunc	arraylist.h	/^typedef int (*ArrayListEqualFunc)(ArrayListValue value1,$/;"	t
+ArrayListValue	arraylist.h	/^typedef void *ArrayListValue;$/;"	t
+Book	bookmanagement.h	/^typedef struct _Book Book;$/;"	t	typeref:struct:_Book
+MAX_BUF	bookmanagement.h	/^#define MAX_BUF /;"	d
+MAX_LINE	bookmanagement.h	/^#define MAX_LINE /;"	d
+MAX_STR	bookmanagement.h	/^#define MAX_STR /;"	d
+_ArrayList	arraylist.h	/^struct _ArrayList {$/;"	s
+_Book	bookmanagement.h	/^struct _Book {$/;"	s
+_alloced	arraylist.h	/^	unsigned int _alloced;$/;"	m	struct:_ArrayList
+append_book	bookmanagement.c	/^int append_book(ArrayList *list, ArrayListValue value)$/;"	f
+arraylist_append	arraylist.c	/^int arraylist_append(ArrayList *arraylist, ArrayListValue data)$/;"	f
+arraylist_clear	arraylist.c	/^void arraylist_clear(ArrayList *arraylist)$/;"	f
+arraylist_enlarge	arraylist.c	/^static int arraylist_enlarge(ArrayList *arraylist)$/;"	f	file:
+arraylist_free	arraylist.c	/^void arraylist_free(ArrayList *arraylist)$/;"	f
+arraylist_index_of	arraylist.c	/^int arraylist_index_of(ArrayList *arraylist,$/;"	f
+arraylist_insert	arraylist.c	/^int arraylist_insert(ArrayList *arraylist, unsigned int index,$/;"	f
+arraylist_new	arraylist.c	/^ArrayList *arraylist_new(unsigned int length)$/;"	f
+arraylist_prepend	arraylist.c	/^int arraylist_prepend(ArrayList *arraylist, ArrayListValue data)$/;"	f
+arraylist_remove	arraylist.c	/^void arraylist_remove(ArrayList *arraylist, unsigned int index)$/;"	f
+arraylist_remove_range	arraylist.c	/^void arraylist_remove_range(ArrayList *arraylist, unsigned int index,$/;"	f
+arraylist_sort	arraylist.c	/^void arraylist_sort(ArrayList *arraylist, ArrayListCompareFunc compare_func)$/;"	f
+arraylist_sort_internal	arraylist.c	/^static void arraylist_sort_internal(ArrayListValue *list_data,$/;"	f	file:
+compare_func_check_id	main.c	/^int compare_func_check_id(void *a, void *b)$/;"	f
+compare_func_check_price	bookmanagement.c	/^int compare_func_check_price(void *a, void *b)$/;"	f
+data	arraylist.h	/^	ArrayListValue *data;$/;"	m	struct:_ArrayList
+delete_book	bookmanagement.c	/^int delete_book(ArrayList *list, void *value, ArrayListCompareFunc compare_func)$/;"	f
+id	bookmanagement.h	/^    int id;$/;"	m	struct:_Book
+insert_book	bookmanagement.c	/^int insert_book(ArrayList *list, ArrayListValue value)$/;"	f
+length	arraylist.h	/^	unsigned int length;$/;"	m	struct:_ArrayList
+main	main.c	/^int main(int agrc, char *argv[])$/;"	f
+modify_book	bookmanagement.c	/^int modify_book(ArrayList *list, void *value, ArrayListCompareFunc compare_func)$/;"	f
+name	bookmanagement.h	/^    char name[MAX_STR];$/;"	m	struct:_Book
+new_book	bookmanagement.c	/^Book *new_book(void)$/;"	f
+price	bookmanagement.h	/^    double price;$/;"	m	struct:_Book
+query_book	bookmanagement.c	/^Book *query_book(ArrayList *list, void *value, ArrayListCompareFunc compare_func)$/;"	f
+welcome	bookmanagement.c	/^void welcome()$/;"	f
