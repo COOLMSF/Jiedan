@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-myffmpeglib",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "任务-myffmpeglib",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "任务-myffmpeglib",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

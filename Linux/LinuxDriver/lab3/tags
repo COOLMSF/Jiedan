@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DRV_DESCRIPTION	lab_io.c	/^#define DRV_DESCRIPTION /;"	d	file:
+DRV_NAME	lab_io.c	/^#define DRV_NAME /;"	d	file:
+DRV_RELDATE	lab_io.c	/^#define DRV_RELDATE /;"	d	file:
+DRV_VERSION	lab_io.c	/^#define DRV_VERSION /;"	d	file:
+DRV_VERSION	lab_io.c	/^MODULE_VERSION(DRV_VERSION);$/;"	v
+MITM_CONSUMED	lab_io.c	/^	MITM_CONSUMED,$/;"	e	enum:mitm_handler_result	file:
+MITM_DROP	lab_io.c	/^	MITM_DROP$/;"	e	enum:mitm_handler_result	file:
+MITM_FORWARD	lab_io.c	/^	MITM_FORWARD,$/;"	e	enum:mitm_handler_result	file:
+MITM_REPLY	lab_io.c	/^	MITM_REPLY,$/;"	e	enum:mitm_handler_result	file:
+TARGET_PORT	lab_io.c	/^#define TARGET_PORT /;"	d	file:
+__packet_direct_xmit	lab_io.c	/^static int __packet_direct_xmit(struct sk_buff *skb)$/;"	f	file:
+__packet_pick_tx_queue	lab_io.c	/^static u16 __packet_pick_tx_queue(struct net_device *dev, struct sk_buff *skb)$/;"	f	file:
+__packet_xmit_irq_enabled	lab_io.c	/^static inline netdev_tx_t __packet_xmit_irq_enabled(netdev_tx_t (*xmit)(struct sk_buff *), struct sk_buff *skb)$/;"	f	file:
+analy_package	lab_io.c	/^static ssize_t analy_package(struct file *file, char __user *ubuf,size_t count, loff_t *ppos) $/;"	f	file:
+debugfs_dir	lab_io.c	/^static struct dentry *debugfs_dir;$/;"	v	typeref:struct:dentry	file:
+debugfs_get_slave	lab_io.c	/^static ssize_t debugfs_get_slave(struct file *file, char __user *buff,$/;"	f	file:
+debugfs_set_slave	lab_io.c	/^static ssize_t debugfs_set_slave(struct file *file, const char __user *buff,$/;"	f	file:
+dev	lab_io.c	/^		struct net_device *dev;$/;"	m	struct:mitm::slave	typeref:struct:mitm::slave::net_device	file:
+dev	lab_io.c	/^	struct net_device *dev;$/;"	m	struct:mitm	typeref:struct:mitm::net_device	file:
+eth0_write_2_lab	lab_io.c	/^static enum mitm_handler_result eth0_write_2_lab(struct mitm *mitm, struct sk_buff *skb)$/;"	f	file:
+eth_swap_addr	lab_io.c	/^static void eth_swap_addr(struct sk_buff *skb)$/;"	f	file:
+fops	lab_io.c	/^static struct file_operations fops = $/;"	v	typeref:struct:file_operations	file:
+forward	lab_io.c	/^enum mitm_handler_result forward(struct mitm *mitm __maybe_unused, struct sk_buff *skb __maybe_unused)$/;"	f
+handle_egress	lab_io.c	/^	enum mitm_handler_result (*handle_egress)(struct mitm *mitm, struct sk_buff *skb);$/;"	m	struct:mitm	typeref:enum:mitm::handle_egress	file:
+handle_ingress	lab_io.c	/^	enum mitm_handler_result (*handle_ingress)(struct mitm *mitm, struct sk_buff *skb);$/;"	m	struct:mitm	typeref:enum:mitm::handle_ingress	file:
+intercept_ping	lab_io.c	/^static bool intercept_ping = true;$/;"	v	file:
+lab_read_from_eth0	lab_io.c	/^static enum mitm_handler_result lab_read_from_eth0(struct mitm *mitm, struct sk_buff *skb)$/;"	f	file:
+lock	lab_io.c	/^	spinlock_t lock;$/;"	m	struct:mitm	file:
+mitm	lab_io.c	/^struct mitm {$/;"	s	file:
+mitm_dev	lab_io.c	/^static struct net_device *mitm_dev;$/;"	v	typeref:struct:net_device	file:
+mitm_emancipate	lab_io.c	/^static int mitm_emancipate(struct net_device *mitm_dev, struct net_device *slave_dev)$/;"	f	file:
+mitm_enslave	lab_io.c	/^static int mitm_enslave(struct net_device *mitm_dev,$/;"	f	file:
+mitm_exit_module	lab_io.c	/^module_exit(mitm_exit_module);$/;"	v
+mitm_exit_module	lab_io.c	/^void __exit mitm_exit_module(void)$/;"	f
+mitm_handle_frame	lab_io.c	/^static rx_handler_result_t mitm_handle_frame(struct sk_buff **pskb)$/;"	f	file:
+mitm_handler_result	lab_io.c	/^enum mitm_handler_result {$/;"	g	file:
+mitm_has_slave	lab_io.c	/^#define mitm_has_slave(/;"	d	file:
+mitm_init_module	lab_io.c	/^int __init mitm_init_module(void)$/;"	f
+mitm_init_module	lab_io.c	/^module_init(mitm_init_module);$/;"	v
+mitm_master_upper_dev_link	lab_io.c	/^static int mitm_master_upper_dev_link(struct mitm *mitm, struct slave *slave)$/;"	f	file:
+mitm_netdev_ops	lab_io.c	/^static const struct net_device_ops mitm_netdev_ops = {$/;"	v	typeref:struct:net_device_ops	file:
+mitm_of	lab_io.c	/^#define mitm_of(/;"	d	file:
+mitm_open	lab_io.c	/^int mitm_open(struct net_device *dev)$/;"	f
+mitm_set_carrier	lab_io.c	/^static int mitm_set_carrier(struct mitm *mitm)$/;"	f	file:
+mitm_set_dev_addr	lab_io.c	/^static void mitm_set_dev_addr(struct net_device *mitm_dev, struct net_device *slave_dev)$/;"	f	file:
+mitm_setup	lab_io.c	/^void mitm_setup(struct net_device *mitm_dev)$/;"	f
+mitm_slave	lab_io.c	/^static inline struct slave *mitm_slave(struct mitm *mitm)$/;"	f	file:
+mitm_slave_list	lab_io.c	/^#define mitm_slave_list(/;"	d	file:
+mitm_start_xmit	lab_io.c	/^static netdev_tx_t mitm_start_xmit(struct sk_buff *skb, struct net_device *dev)$/;"	f	file:
+mitm_stop	lab_io.c	/^int mitm_stop(struct net_device *dev)$/;"	f
+mitm_upper_dev_unlink	lab_io.c	/^static void mitm_upper_dev_unlink(struct mitm *mitm, struct slave *slave)$/;"	f	file:
+np	lab_io.c	/^	struct netpoll np;$/;"	m	struct:mitm	typeref:struct:mitm::netpoll	file:
+obj-m	Makefile	/^obj-m := lab_io.o$/;"	m
+packet_direct_xmit	lab_io.c	/^static netdev_tx_t packet_direct_xmit(struct mitm *mitm, struct sk_buff *skb)$/;"	f	file:
+packet_netpoll_xmit	lab_io.c	/^static netdev_tx_t packet_netpoll_xmit(struct mitm *mitm, struct sk_buff *skb)$/;"	f	file:
+packet_pick_tx_queue	lab_io.c	/^static void packet_pick_tx_queue(struct net_device *dev, struct sk_buff *skb)$/;"	f	file:
+packet_queue_xmit	lab_io.c	/^static netdev_tx_t packet_queue_xmit(struct mitm *mitm, struct sk_buff *skb)$/;"	f	file:
+proc_file	lab_io.c	/^static struct proc_dir_entry *proc_file;$/;"	v	typeref:struct:proc_dir_entry	file:
+recebuff	lab_io.c	/^char recebuff[10240];$/;"	v
+slave	lab_io.c	/^	struct slave {$/;"	s	struct:mitm	file:
+slave	lab_io.c	/^	} slave;$/;"	m	struct:mitm	typeref:struct:mitm::slave	file:
+slave_fops	lab_io.c	/^static const struct file_operations slave_fops = {$/;"	v	typeref:struct:file_operations	file:
+tempBuff	lab_io.c	/^char tempBuff[10240];$/;"	v
+use_netpoll	lab_io.c	/^static bool use_netpoll;$/;"	v	file:
+use_qdisc	lab_io.c	/^static bool use_qdisc = true;$/;"	v	file:
+xmit	lab_io.c	/^	netdev_tx_t (*xmit)(struct mitm *mitm, struct sk_buff *);$/;"	m	struct:mitm	file:
+your_func	lab_io.c	/^static void (*your_func)(int type, struct net_device *dev, unsigned change, gfp_t flags);$/;"	v	file:

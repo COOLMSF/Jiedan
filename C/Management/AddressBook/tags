@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDRESS	è®¡ç®—æœºå®žä¹ .cpp	/^typedef struct ADDRESS$/;"	s	file:
+ADDRESS	è®¡ç®—æœºå®žä¹ .cpp	/^}ADDRESS;$/;"	t	typeref:struct:ADDRESS	file:
+Add	è®¡ç®—æœºå®žä¹ .cpp	/^void Add()     \/\/Ìí¼ÓÁªÏµÈËº¯Êý$/;"	f
+AddressList	è®¡ç®—æœºå®žä¹ .cpp	/^int AddressList()$/;"	f
+Capa	è®¡ç®—æœºå®žä¹ .cpp	/^ADDRESS Capa[30];                             \/\/½á¹¹ÌåÊý×é$/;"	v
+DelectAll	è®¡ç®—æœºå®žä¹ .cpp	/^void DelectAll()                                                \/*É¾³ýÈ«²¿ÁªÏµÈËÐÅÏ¢*\/$/;"	f
+DelectOne	è®¡ç®—æœºå®žä¹ .cpp	/^void DelectOne()                                  \/\/É¾³ýµ¥¸öÁªÏµÈË$/;"	f
+Edit	è®¡ç®—æœºå®žä¹ .cpp	/^void Edit(char a[])           \/\/ÐÞ¸ÄÁªÏµÈËº¯Êý$/;"	f
+Get	è®¡ç®—æœºå®žä¹ .cpp	/^int Get(char *fileName)                                          \/\/ÎÄ¼þÊý¾Ý»ñÈ¡º¯Êý$/;"	f
+GroupRes	è®¡ç®—æœºå®žä¹ .cpp	/^void GroupRes()                                     \/\/°´Èº×é²éÕÒ$/;"	f
+Menu	è®¡ç®—æœºå®žä¹ .cpp	/^int Menu()                 \/\/ÓÃ»§²Ëµ¥½çÃæ$/;"	f
+NameRes	è®¡ç®—æœºå®žä¹ .cpp	/^void NameRes()                                                       \/\/°´Ãû×Ö²éÕÒ$/;"	f
+Order	è®¡ç®—æœºå®žä¹ .cpp	/^void Order(ADDRESS *p,int pnum)         \/\/°´ÕÕÐÕÃûÆ´ÒôÅÅÐò$/;"	f
+ReMenu	è®¡ç®—æœºå®žä¹ .cpp	/^void ReMenu()                             \/\/µ±²Ù×÷Îª·µ»ØÊ±µÄ½çÃæº¯Êý$/;"	f
+Save	è®¡ç®—æœºå®žä¹ .cpp	/^int Save(char *fileName)                                                     \/\/±£´æÖÁÎÄ¼þº¯Êý$/;"	f
+Search_Group	è®¡ç®—æœºå®žä¹ .cpp	/^int Search_Group(char a[])                                \/\/°´Èº×éÖð¸ö²éÕÒ$/;"	f
+Search_Name	è®¡ç®—æœºå®žä¹ .cpp	/^int Search_Name(char a[],int num[])                                                   \/\/°´ÐÕÃûÖð¸ö²éÕÒ$/;"	f
+ShowAll	è®¡ç®—æœºå®žä¹ .cpp	/^void ShowAll(ADDRESS *p,int pnum)		\/\/ÏÔÊ¾È«²¿ÁªÏµÈËÐÅÏ¢$/;"	f
+ShowOne	è®¡ç®—æœºå®žä¹ .cpp	/^void ShowOne(ADDRESS *p,int pnum)											\/\/Öð¸öÏÔÊ¾ÁªÏµÈËÐÅÏ¢$/;"	f
+Temp	è®¡ç®—æœºå®žä¹ .cpp	/^ADDRESS Temp[30];                             \/\/ÓÃÓÚ±£´æÊäÈëµÄ½á¹¹ÌåÊý×é$/;"	v
+TotalNum	è®¡ç®—æœºå®žä¹ .cpp	/^int TotalNum=0;$/;"	v
+Trans	è®¡ç®—æœºå®žä¹ .cpp	/^void Trans(ADDRESS a)                   \/\/´«Êäº¯Êý£¬½«½á¹¹ÌåADDRESSÐÅÏ¢´æÈë½á¹¹ÌåÊý×éCapaÖÐ$/;"	f
+add	è®¡ç®—æœºå®žä¹ .cpp	/^	char add[50];$/;"	m	struct:ADDRESS	file:
+group	è®¡ç®—æœºå®žä¹ .cpp	/^	char group[50];$/;"	m	struct:ADDRESS	file:
+main	è®¡ç®—æœºå®žä¹ .cpp	/^int main()$/;"	f
+name	è®¡ç®—æœºå®žä¹ .cpp	/^	char name[10];$/;"	m	struct:ADDRESS	file:
+tele	è®¡ç®—æœºå®žä¹ .cpp	/^	char tele[12];$/;"	m	struct:ADDRESS	file:

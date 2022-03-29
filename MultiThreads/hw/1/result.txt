@@ -1,0 +1,36 @@
+a. available_resources
+
+b. 
+In function decrease_count(), race condition occurs at line 7.
+In function increase_count(), race condition occurs at line 3.
+
+c.
+#define MAX_RESOURCES 5
+int available_resources = MAX_RESOURCES;
+
+Mutex mutex;
+
+init_mutex(&mutex);
+
+int decrease_count(int count)
+{
+    if (available_resources < count) {
+        return -1;
+    } else {
+        mutex.try_lock();
+        available_resources -= count;
+        mutex.unlock();
+
+        return 0;
+    }
+}
+
+int increase_count(int count)
+{
+    mutex.try_lock();
+    available_resources += count;
+    mutex.unlock();
+
+    return 0;
+}
+

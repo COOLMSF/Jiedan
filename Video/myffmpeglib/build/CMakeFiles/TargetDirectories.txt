@@ -1,0 +1,3 @@
+/Users/coolder/Documents/JieDan/Video/myffmpeglib/build/CMakeFiles/myffmpeglib.dir
+/Users/coolder/Documents/JieDan/Video/myffmpeglib/build/CMakeFiles/edit_cache.dir
+/Users/coolder/Documents/JieDan/Video/myffmpeglib/build/CMakeFiles/rebuild_cache.dir

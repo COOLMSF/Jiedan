@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>617</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>背背单词</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(234, 234, 234);
+border-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>750</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="1" column="1">
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="3" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="CourageName">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(140, 140, 140);</string>
+            </property>
+            <property name="text">
+             <string>Stephen Hawking</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="courageLabel">
+            <property name="font">
+             <font>
+              <family>Harlow Solid Italic</family>
+              <pointsize>11</pointsize>
+              <italic>true</italic>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>we only have to look at ourselves to see how intelligent life might develop into something we wouldn't want to mee.</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="CourageText">
+            <property name="font">
+             <font>
+              <pointsize>18</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 8, 164);</string>
+            </property>
+            <property name="text">
+             <string>未登录</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>750</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>750</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="wordLearnBtn">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(27, 45, 151);
+background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>学习</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="checkBtn">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>ArrowCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(27, 45, 151);
+background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>打卡</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>32</width>
+              <height>32</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="loginBtn">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(27, 45, 151);
+background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>登录</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="reciateBtn">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-color: rgb(0, 0, 0);
+color: rgb(27, 45, 151);
+background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="text">
+             <string>背诵</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="user">
+    <property name="title">
+     <string>用户</string>
+    </property>
+    <widget class="QMenu" name="exitlogin">
+     <property name="title">
+      <string>退出登录</string>
+     </property>
+     <addaction name="actioncheck"/>
+     <addaction name="actionconfirmexit"/>
+    </widget>
+    <addaction name="actionLogin"/>
+    <addaction name="actionRegister"/>
+    <addaction name="exitlogin"/>
+    <addaction name="separator"/>
+    <addaction name="actionprofile"/>
+   </widget>
+   <widget class="QMenu" name="wordlib">
+    <property name="title">
+     <string>单词本</string>
+    </property>
+    <addaction name="actionexplorer"/>
+    <addaction name="separator"/>
+    <addaction name="actionaddLib"/>
+   </widget>
+   <widget class="QMenu" name="help">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <widget class="QMenu" name="start">
+     <property name="title">
+      <string>单词背诵</string>
+     </property>
+     <addaction name="actionspellingModel"/>
+     <addaction name="actionchoiceModel"/>
+     <addaction name="separator"/>
+     <addaction name="actionmodelComment"/>
+    </widget>
+    <addaction name="start"/>
+    <addaction name="actionLearn"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menu_5"/>
+   <addaction name="user"/>
+   <addaction name="wordlib"/>
+   <addaction name="help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLogin">
+   <property name="text">
+    <string>登录</string>
+   </property>
+  </action>
+  <action name="actionRegister">
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </action>
+  <action name="actionInsert">
+   <property name="text">
+    <string>添加新词</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>帮助</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="actionLevel">
+   <property name="text">
+    <string>等级</string>
+   </property>
+  </action>
+  <action name="actionScore">
+   <property name="text">
+    <string>分数</string>
+   </property>
+  </action>
+  <action name="actionSignup">
+   <property name="text">
+    <string>打卡天数</string>
+   </property>
+  </action>
+  <action name="actionName">
+   <property name="text">
+    <string>名称</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>退出软件</string>
+   </property>
+  </action>
+  <action name="actionchoiceModel">
+   <property name="text">
+    <string>选择题模式</string>
+   </property>
+  </action>
+  <action name="actionspellingModel">
+   <property name="text">
+    <string>拼写模式</string>
+   </property>
+  </action>
+  <action name="actionmodelComment">
+   <property name="text">
+    <string>模式说明</string>
+   </property>
+  </action>
+  <action name="actionpersonalWordLib">
+   <property name="text">
+    <string>个人词库</string>
+   </property>
+  </action>
+  <action name="actionwrongWordLib">
+   <property name="text">
+    <string>错词词库</string>
+   </property>
+  </action>
+  <action name="actiondefLearn">
+   <property name="text">
+    <string>默认词库</string>
+   </property>
+  </action>
+  <action name="actioncheck">
+   <property name="text">
+    <string>打卡</string>
+   </property>
+  </action>
+  <action name="actionconfirmexit">
+   <property name="text">
+    <string>确认退出</string>
+   </property>
+  </action>
+  <action name="actionmodify">
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </action>
+  <action name="actiondelete">
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </action>
+  <action name="actionsuperadd">
+   <property name="text">
+    <string>补充</string>
+   </property>
+  </action>
+  <action name="actionaddLib">
+   <property name="text">
+    <string>词库导入</string>
+   </property>
+  </action>
+  <action name="actionprofile">
+   <property name="text">
+    <string>用户信息</string>
+   </property>
+  </action>
+  <action name="actionexplorer">
+   <property name="text">
+    <string>词库管理</string>
+   </property>
+  </action>
+  <action name="actionLearn">
+   <property name="text">
+    <string>单词学习</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
