@@ -95,7 +95,6 @@ int insert_user(SListEntry **list, SListValue *value);
 void show_userinfo(struct _Enroll *p);
 void show_books(SListEntry *book_list);
 
-int fix_bug = 0;
 
 void pre_welcome()
 {
