@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>web tools</title>
+    <link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon"/>
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet" />
+    <link href="{% static 'plugins/welcome/style.min.css' %}" rel="stylesheet">
+</head>
+	<body>
+        <!--标题栏-->
+		<header class="header-global">
+			<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+				<div class="container">
+					<a class="navbar-brand mr-lg-5" href="#">
+                        <img alt="Brand" style="float: left" src="{% static '/img/favicon.ico' %}"/>
+						<h4 class="text-white">web tools</h4>
+					</a>
+					<div class="navbar-collapse collapse" id="navbar_global">
+						<ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+							<li class="nav-item d-none d-lg-block ml-lg-4">
+                                <a href="{% url 'login' %}" class="btn btn-neutral btn-icon">
+									<span class="btn-inner--icon"><i class="fas fa-user-circle" style="zoom: 1.3"></i></span>
+                                    <span class="nav-link-inner--text">Sign in</span>
+								</a>
+                            </li>
+							<li class="nav-item d-none d-lg-block ml-lg-4">
+                                <a href="{% url 'index' %}" class="btn btn-neutral btn-icon">
+									<span class="btn-inner--icon"><i class="fas fa-running" style="zoom: 1.3"></i></span>
+                                    <span class="nav-link-inner--text">Get Started</span>
+								</a>
+                            </li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+            <section class="section section-hero section-shaped">
+                <!--背景方框-->
+              <div class="shape shape-style-3 shape-default">
+                <span class="span-150"></span>
+                <span class="span-50"></span>
+                <span class="span-50"></span>
+                <span class="span-75"></span>
+                <span class="span-100"></span>
+                <span class="span-75"></span>
+                <span class="span-50"></span>
+                <span class="span-100"></span>
+                <span class="span-50"></span>
+                <span class="span-100"></span>
+              </div>
+                <!--介绍&登录和进入按钮-->
+              <div class="page-header">
+                <div class="container shape-container d-flex align-items-center py-lg">
+                  <div class="col px-0">
+                    <div class="row align-items-center justify-content-center">
+                      <div class="col-lg-6 text-center">
+                        <h1 class="text-white display-3" >在线Web安全渗透工具</h1>
+                        <div class="btn-wrapper mt-4">
+                          <a href="{% url 'index' %}" class="btn btn-danger btn-icon mt-3 mb-sm-0">
+                            <span class="btn-inner--icon"><i class="fas fa-play" style="zoom:1.1;"></i></span>
+                            <span class="btn-inner--text">让我们尽情开始吧！</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!--分割线-->
+              <div class="separator separator-bottom separator-skew zindex-100">
+                <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+              </div>
+            </section>
+            <br><br><hr>
+            <!-- 特点卡片 -->
+            <section class="section section-lg pt-lg-0 mt--200 ">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                          
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 使用人群卡片 -->
+            <section class="section features-6 bg-secondary">
+                <div class="container">
+                  
+          </div>
+          <div class="col-lg-6 col-10 mx-md-auto">
+            <img class="ml-lg-5" src="{% static 'plugins/welcome/ill.png' %}" width="100%" title="" style="">
+          </div>
+        </div>
+                </div>
+            </section>
+         
+            </section>
+            <!--页脚-->
+            <footer class="footer">
+                <div class="container">
+                   
+                </div>
+            </footer>
+		</main>
+
+    <!-- 回到顶部 -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $('.scroll_top').click(function(){$('html,body').animate({scrollTop: '0px'},100);}); //100毫秒
+    });
+</script>
+	</body>
+</html>

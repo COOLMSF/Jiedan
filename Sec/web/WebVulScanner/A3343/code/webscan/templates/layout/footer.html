@@ -1,0 +1,15 @@
+{% load static %}
+<footer class="footer"  {#style="position: fixed; bottom: 15px;width: 100%"#} {#style="background-color:rgba(0,0,0,0);"#}>
+    <div class="container">
+       
+    </div>
+</footer>
+
+
+<!-- 回到顶部 -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+    $('.scroll_top').click(function(){$('html,body').animate({scrollTop: '0px'},100);}); //100毫秒
+    });
+</script>

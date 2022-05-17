@@ -5,6 +5,8 @@
 #include <stdio.h>        // for printf
 #include <stdlib.h>        // for exit
 #include <string.h>        // for bzero
+#include <arpa/inet.h>
+#include <unistd.h>
 /*
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -12,8 +14,8 @@
 #include <unistd.h>
 */
  
-#define HELLO_WORLD_SERVER_PORT    6666 
-#define BUFFER_SIZE 1024
+#define SERVER_PORT    3333 
+#define MAXBUF 1024
 #define FILE_NAME_MAX_SIZE 512
  
 int main(int argc, char **argv)
@@ -53,7 +55,7 @@ int main(int argc, char **argv)
         printf("Server IP Address Error!\n");
         exit(1);
     }
-    server_addr.sin_port = htons(HELLO_WORLD_SERVER_PORT);
+    server_addr.sin_port = htons(SERVER_PORT);
     socklen_t server_addr_length = sizeof(server_addr);
     //向服务器发起连接,连接成功后client_socket代表了客户机和服务器的一个socket连接
     if(connect(client_socket,(struct sockaddr*)&server_addr, server_addr_length) < 0)
@@ -61,50 +63,44 @@ int main(int argc, char **argv)
         printf("Can Not Connect To %s!\n",argv[1]);
         exit(1);
     }
- 
-    char file_name[FILE_NAME_MAX_SIZE+1];
-    bzero(file_name, FILE_NAME_MAX_SIZE+1);
-    printf("Please Input File Name On Server:\t");
-    scanf("%s", file_name);
+
+    char buf[MAXBUF];
     
-    char buffer[BUFFER_SIZE];
-    bzero(buffer,BUFFER_SIZE);
-    strncpy(buffer, file_name, strlen(file_name)>BUFFER_SIZE?BUFFER_SIZE:strlen(file_name));
-    //向服务器发送buffer中的数据
-    send(client_socket,buffer,BUFFER_SIZE,0);
- 
-//    int fp = open(file_name, O_WRONLY|O_CREAT);
-//    if( fp < 0 )
-    FILE * fp = fopen(file_name,"w");
-    if(NULL == fp )
-    {
-        printf("File:\t%s Can Not Open To Write\n", file_name);
-        exit(1);
-    }
+    // 清零
+    memset(buf, 0, MAXBUF);
     
-    //从服务器接收数据到buffer中
-    bzero(buffer,BUFFER_SIZE);
-    int length = 0;
-    while( length = recv(client_socket,buffer,BUFFER_SIZE,0))       //循环接收，再写到文件
-    {
-        if(length < 0)
-        {
-            printf("Recieve Data From Server %s Failed!\n", argv[1]);
-            break;
-        }
-//        int write_length = write(fp, buffer,length);
-        int write_length = fwrite(buffer,sizeof(char),length,fp);
-        if (write_length<length)
-        {
-            printf("File:\t%s Write Failed\n", file_name);
-            break;
-        }
-        bzero(buffer,BUFFER_SIZE);    
-    }
-    printf("Recieve File:\t %s From Server[%s] Finished\n",file_name, argv[1]);
+    // 获取服务器端的pre_welcome输出
+    recv(client_socket, buf, MAXBUF, 0);
+    // 输出到屏幕
+    puts(buf);
+    // 输入pre_welcome选项
+    scanf("%d", buf);
+    // 发送到服务器
+    send(client_socket, buf, sizeof(buf), 0);
+
+    // 接收用户名提示信息
+    recv(client_socket, buf, MAXBUF, 0);
+    // 打印用户提示信息
+    puts(buf);
+    // 输入用户名
+    scanf("%s", buf);
+    // 发送到服务器
+    send(client_socket, buf, sizeof(buf), 0);
+
+    // 接收密码提示信息
+    recv(client_socket, buf, MAXBUF, 0);
+    // 打印密码提示信息
+    puts(buf);
+    // 输入密码
+    scanf("%s", buf);
+    // 发送到服务器
+    send(client_socket, buf, sizeof(buf), 0);
+
+    // ok, 登录成功, or 失败
     
-    close(fp);
-    //关闭socket
+
+
+
     close(client_socket);
     return 0;
 }

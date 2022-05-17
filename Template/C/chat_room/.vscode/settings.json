@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "account_srv.h": "c",
+        "connect.h": "c",
+        "libgen.h": "c",
+        "__config": "c",
+        "__threading_support": "c",
+        "thread": "c",
+        "version": "c",
+        "*.tcc": "c",
+        "mutex": "c",
+        "stop_token": "c"
+    }
+}
