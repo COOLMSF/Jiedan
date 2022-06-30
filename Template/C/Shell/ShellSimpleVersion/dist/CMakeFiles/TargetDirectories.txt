@@ -1,0 +1,3 @@
+/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles/SimpleShell.dir
+/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles/edit_cache.dir
+/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles/rebuild_cache.dir

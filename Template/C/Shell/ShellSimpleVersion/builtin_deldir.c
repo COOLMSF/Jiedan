@@ -2,12 +2,15 @@
 
 int builtin_deldir(char *cmd)
 {
-	char *args = getargs(cmd);
+	char **args = alloc_args();
 
-	if (rmdir(args) < 0) {
+	get_args(cmd, args);
+	if (rmdir(args[1]) < 0) {
 		fprintf(stderr, "Remove dir error\n");
 		perror("rmdir");
 		return -1;
 	}
 	puts("Remove dir succeed");
+
+	free_args();
 }

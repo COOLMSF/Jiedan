@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/coolder/learning/programming/c/my_project/Shell
--- Configuring done
--- Generating done
--- Build files have been written to: /home/coolder/learning/programming/c/my_project/Shell/cmake-build-debug

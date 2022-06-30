@@ -1,3 +1,0 @@
-/home/coolder/learning/programming/c/my_project/Shell/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/coolder/learning/programming/c/my_project/Shell/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/coolder/learning/programming/c/my_project/Shell/cmake-build-debug/CMakeFiles/Shell.dir

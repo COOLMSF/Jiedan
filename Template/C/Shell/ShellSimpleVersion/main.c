@@ -17,20 +17,43 @@ int main(int argc, char const *argv[])
             builtin_pwd();
         }
 
-        if (strstr(input, "list") != NULL) {
+        if (strstr(input, "ls") != NULL) {
             builtin_list(input);
         }
 
-        if (strstr(input, "makedir") != NULL) {
+        if (strstr(input, "mkdir") != NULL) {
             builtin_makedir(input);
         }
 
-        if (strstr(input, "deldir") != NULL) {
+        if (strstr(input, "rmdir") != NULL) {
             builtin_deldir(input);
         }
 
-        if (strstr(input, "changedir") != NULL) {
+        if (strstr(input, "cd") != NULL) {
             builtin_changedir(input);
         }
+
+        if (strstr(input, "cat") != NULL) {
+            builtin_cat(input);
+        }
+
+        if (strstr(input, "wc") != NULL) {
+            builtin_wc(input);
+        }
+
+        if (strstr(input, "touch") != NULL) {
+            builtin_touch(input);
+        }
+
+        if (strstr(input, "cp") != NULL) {
+            builtin_cp(input);
+        }
+
+		if (strstr(input, "rmall") != NULL) {
+			builtin_rm(input);
+		}
+		if (strstr(input, "echo") != NULL) {
+			builtin_echo(input);
+		}
     }
 }

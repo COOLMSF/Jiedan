@@ -1,0 +1,316 @@
+04/04/2022-14:27:05.289620  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47786 -> 169.254.0.4:80
+04/04/2022-14:27:09.362127  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47800 -> 169.254.0.4:80
+04/04/2022-14:27:11.340312  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47806 -> 169.254.0.4:80
+04/04/2022-14:27:14.260669  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47822 -> 169.254.0.4:80
+04/04/2022-14:27:18.295626  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:59826
+04/04/2022-14:27:19.361169  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47840 -> 169.254.0.4:80
+04/04/2022-14:27:22.264026  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47852 -> 169.254.0.4:80
+04/04/2022-14:27:23.260896  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47860 -> 169.254.0.4:80
+04/04/2022-14:27:23.361069  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47862 -> 169.254.0.4:80
+04/04/2022-14:27:23.721902  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.74:25 -> 10.0.16.2:44882
+04/04/2022-14:27:32.264973  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47894 -> 169.254.0.4:80
+04/04/2022-14:27:33.364800  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47904 -> 169.254.0.4:80
+04/04/2022-14:27:33.507544  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.109:25 -> 10.0.16.2:37738
+04/04/2022-14:27:39.359899  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47926 -> 169.254.0.4:80
+04/04/2022-14:27:42.274350  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47936 -> 169.254.0.4:80
+04/04/2022-14:27:43.259614  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:47944 -> 169.254.0.4:80
+04/04/2022-14:27:59.361315  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48004 -> 169.254.0.4:80
+04/04/2022-14:28:02.516879  [**] [1:2403383:73410] ET CINS Active Threat Intelligence Poor Reputation IP group 84 [**] [Classification: Misc Attack] [Priority: 2] {ICMP} 66.240.236.116:8 -> 10.0.16.2:0
+04/04/2022-14:28:03.261048  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48030 -> 169.254.0.4:80
+04/04/2022-14:28:09.361548  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48052 -> 169.254.0.4:80
+04/04/2022-14:28:13.262003  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48072 -> 169.254.0.4:80
+04/04/2022-14:28:13.364225  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48074 -> 169.254.0.4:80
+04/04/2022-14:28:14.257603  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48076 -> 169.254.0.4:80
+04/04/2022-14:28:26.757868  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:52428
+04/04/2022-14:28:30.440959  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.76:25 -> 10.0.16.2:52428
+04/04/2022-14:28:30.704288  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.74:25 -> 10.0.16.2:54368
+04/04/2022-14:28:32.264503  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48144 -> 169.254.0.4:80
+04/04/2022-14:28:39.361770  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48178 -> 169.254.0.4:80
+04/04/2022-14:28:42.261754  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48188 -> 169.254.0.4:80
+04/04/2022-14:28:43.362908  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48196 -> 169.254.0.4:80
+04/04/2022-14:28:49.361934  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48216 -> 169.254.0.4:80
+04/04/2022-14:28:51.336342  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.77:25 -> 10.0.16.2:49776
+04/04/2022-14:28:51.435180  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 185.184.192.178:26645 -> 10.0.16.2:22
+04/04/2022-14:28:53.363064  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48244 -> 169.254.0.4:80
+04/04/2022-14:29:01.758834  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.106:25 -> 10.0.16.2:45378
+04/04/2022-14:29:02.140906  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.76:25 -> 10.0.16.2:52576
+04/04/2022-14:29:05.287407  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48296 -> 169.254.0.4:80
+04/04/2022-14:29:11.305580  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48318 -> 169.254.0.4:80
+04/04/2022-14:29:13.363011  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48334 -> 169.254.0.4:80
+04/04/2022-14:29:13.422824  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.74:25 -> 10.0.16.2:56832
+04/04/2022-14:29:14.259055  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48336 -> 169.254.0.4:80
+04/04/2022-14:29:19.362250  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48350 -> 169.254.0.4:80
+04/04/2022-14:29:22.263290  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48360 -> 169.254.0.4:80
+04/04/2022-14:29:23.260936  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48366 -> 169.254.0.4:80
+04/04/2022-14:29:29.359986  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48386 -> 169.254.0.4:80
+04/04/2022-14:29:33.271251  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48408 -> 169.254.0.4:80
+04/04/2022-14:29:33.371828  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48410 -> 169.254.0.4:80
+04/04/2022-14:29:41.190312  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.79:25 -> 10.0.16.2:40042
+04/04/2022-14:29:42.262228  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48440 -> 169.254.0.4:80
+04/04/2022-14:29:43.263687  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48446 -> 169.254.0.4:80
+04/04/2022-14:29:44.257977  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48450 -> 169.254.0.4:80
+04/04/2022-14:29:49.359562  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48468 -> 169.254.0.4:80
+04/04/2022-14:29:52.263186  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48480 -> 169.254.0.4:80
+04/04/2022-14:29:52.268625  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48482 -> 169.254.0.4:80
+04/04/2022-14:29:54.025801  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:52802
+04/04/2022-14:30:03.362592  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48536 -> 169.254.0.4:80
+04/04/2022-14:30:09.712051  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.73:25 -> 10.0.16.2:42074
+04/04/2022-14:30:13.261525  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48576 -> 169.254.0.4:80
+04/04/2022-14:30:13.362856  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48580 -> 169.254.0.4:80
+04/04/2022-14:30:14.259538  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48582 -> 169.254.0.4:80
+04/04/2022-14:30:19.361982  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48602 -> 169.254.0.4:80
+04/04/2022-14:30:22.263867  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48614 -> 169.254.0.4:80
+04/04/2022-14:30:23.261569  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48618 -> 169.254.0.4:80
+04/04/2022-14:30:29.359837  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48636 -> 169.254.0.4:80
+04/04/2022-14:30:32.261359  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48650 -> 169.254.0.4:80
+04/04/2022-14:30:33.262011  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48654 -> 169.254.0.4:80
+04/04/2022-14:30:41.336835  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:52994
+04/04/2022-14:30:41.626279  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.73:25 -> 10.0.16.2:42198
+04/04/2022-14:30:43.363989  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48700 -> 169.254.0.4:80
+04/04/2022-14:30:44.269478  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48706 -> 169.254.0.4:80
+04/04/2022-14:30:49.360131  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48720 -> 169.254.0.4:80
+04/04/2022-14:30:52.261250  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48732 -> 169.254.0.4:80
+04/04/2022-14:30:53.261098  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48736 -> 169.254.0.4:80
+04/04/2022-14:30:53.362165  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48740 -> 169.254.0.4:80
+04/04/2022-14:30:54.925222  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:53058
+04/04/2022-14:30:56.087400  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.74:25 -> 10.0.16.2:57250
+04/04/2022-14:30:58.915346  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.73:25 -> 10.0.16.2:39534
+04/04/2022-14:31:02.265030  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48774 -> 169.254.0.4:80
+04/04/2022-14:31:12.263999  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48814 -> 169.254.0.4:80
+04/04/2022-14:31:13.260080  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48818 -> 169.254.0.4:80
+04/04/2022-14:31:13.362362  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48822 -> 169.254.0.4:80
+04/04/2022-14:31:14.916494  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:31:14.937803  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:31:14.958835  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:31:17.715932  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:53144
+04/04/2022-14:31:19.361434  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48840 -> 169.254.0.4:80
+04/04/2022-14:31:22.262571  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48852 -> 169.254.0.4:80
+04/04/2022-14:31:23.260597  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48856 -> 169.254.0.4:80
+04/04/2022-14:31:27.384922  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 217.23.2.182:29715 -> 10.0.16.2:22
+04/04/2022-14:31:30.600028  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.75:25 -> 10.0.16.2:33332
+04/04/2022-14:31:32.262738  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48892 -> 169.254.0.4:80
+04/04/2022-14:31:33.360847  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48902 -> 169.254.0.4:80
+04/04/2022-14:31:33.999986  [**] [1:2500016:6121] ET COMPROMISED Known Compromised or Hostile Host Traffic group 9 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 141.98.10.175:44600 -> 10.0.16.2:22
+04/04/2022-14:31:37.623446  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:31:37.643693  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:31:37.664880  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:31:42.269215  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48934 -> 169.254.0.4:80
+04/04/2022-14:31:43.363235  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48944 -> 169.254.0.4:80
+04/04/2022-14:31:44.868283  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.74:25 -> 10.0.16.2:45958
+04/04/2022-14:31:53.262145  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:48980 -> 169.254.0.4:80
+04/04/2022-14:31:56.292699  [**] [1:2220006:1] SURICATA SMTP no server welcome message [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.102.26:25 -> 10.0.16.2:33040
+04/04/2022-14:31:56.292719  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 10.0.16.2:33040 -> 142.250.102.26:25
+04/04/2022-14:31:56.593968  [**] [1:2220000:1] SURICATA SMTP invalid reply [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.102.26:25 -> 10.0.16.2:33040
+04/04/2022-14:31:59.360170  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49004 -> 169.254.0.4:80
+04/04/2022-14:32:00.244584  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:00.264594  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:00.284785  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:03.260012  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49022 -> 169.254.0.4:80
+04/04/2022-14:32:03.362578  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49026 -> 169.254.0.4:80
+04/04/2022-14:32:09.362060  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49046 -> 169.254.0.4:80
+04/04/2022-14:32:13.261069  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49064 -> 169.254.0.4:80
+04/04/2022-14:32:13.361623  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49068 -> 169.254.0.4:80
+04/04/2022-14:32:14.258800  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49070 -> 169.254.0.4:80
+04/04/2022-14:32:19.727827  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:32846
+04/04/2022-14:32:21.815642  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.74:25 -> 10.0.16.2:46124
+04/04/2022-14:32:22.028062  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:53412
+04/04/2022-14:32:22.263061  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49102 -> 169.254.0.4:80
+04/04/2022-14:32:22.975314  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:22.998012  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:23.017682  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:32.262909  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49138 -> 169.254.0.4:80
+04/04/2022-14:32:33.363805  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49146 -> 169.254.0.4:80
+04/04/2022-14:32:39.362852  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49166 -> 169.254.0.4:80
+04/04/2022-14:32:43.262065  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49186 -> 169.254.0.4:80
+04/04/2022-14:32:43.306215  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.72:25 -> 10.0.16.2:48174
+04/04/2022-14:32:43.362631  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49190 -> 169.254.0.4:80
+04/04/2022-14:32:45.826725  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:45.846862  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:45.868656  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:32:52.262034  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49218 -> 169.254.0.4:80
+04/04/2022-14:32:52.898402  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.79:25 -> 10.0.16.2:40828
+04/04/2022-14:32:53.261081  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49222 -> 169.254.0.4:80
+04/04/2022-14:32:53.364997  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49226 -> 169.254.0.4:80
+04/04/2022-14:33:03.261609  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49260 -> 169.254.0.4:80
+04/04/2022-14:33:03.363785  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49264 -> 169.254.0.4:80
+04/04/2022-14:33:05.863003  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.72:25 -> 10.0.16.2:48266
+04/04/2022-14:33:08.608590  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:33:08.629354  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:33:08.650369  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:33:09.360485  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49288 -> 169.254.0.4:80
+04/04/2022-14:33:10.288317  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.91:25 -> 10.0.16.2:55788
+04/04/2022-14:33:11.302956  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49294 -> 169.254.0.4:80
+04/04/2022-14:33:12.264560  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49300 -> 169.254.0.4:80
+04/04/2022-14:33:14.258384  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49312 -> 169.254.0.4:80
+04/04/2022-14:33:14.950143  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.109:25 -> 10.0.16.2:39152
+04/04/2022-14:33:21.352166  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:53644
+04/04/2022-14:33:22.275392  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49338 -> 169.254.0.4:80
+04/04/2022-14:33:22.845044  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:33092
+04/04/2022-14:33:31.197391  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:33:31.218802  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:33:31.239483  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:33:33.263149  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49384 -> 169.254.0.4:80
+04/04/2022-14:33:34.300027  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.74:25 -> 10.0.16.2:55618
+04/04/2022-14:33:35.688407  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.91:25 -> 10.0.16.2:55898
+04/04/2022-14:33:42.297720  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49422 -> 169.254.0.4:80
+04/04/2022-14:33:44.256013  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49434 -> 169.254.0.4:80
+04/04/2022-14:33:49.361429  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49452 -> 169.254.0.4:80
+04/04/2022-14:33:51.741678  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.73:25 -> 10.0.16.2:40240
+04/04/2022-14:33:51.954765  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.153.27:25 -> 10.0.16.2:60204
+04/04/2022-14:33:53.263247  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49478 -> 169.254.0.4:80
+04/04/2022-14:33:53.362481  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49482 -> 169.254.0.4:80
+04/04/2022-14:33:53.871565  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 173.194.202.26:25 -> 10.0.16.2:45974
+04/04/2022-14:34:00.013133  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.142.27:25 -> 10.0.16.2:55596
+04/04/2022-14:34:01.120758  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:53812
+04/04/2022-14:34:02.262860  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49520 -> 169.254.0.4:80
+04/04/2022-14:34:03.362005  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49530 -> 169.254.0.4:80
+04/04/2022-14:34:03.746667  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.141.26:25 -> 10.0.16.2:39722
+04/04/2022-14:34:04.624218  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.102.26:25 -> 10.0.16.2:33558
+04/04/2022-14:34:05.013516  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.77:25 -> 10.0.16.2:52752
+04/04/2022-14:34:09.364943  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49556 -> 169.254.0.4:80
+04/04/2022-14:34:13.261899  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49584 -> 169.254.0.4:80
+04/04/2022-14:34:13.364433  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49590 -> 169.254.0.4:80
+04/04/2022-14:34:13.798217  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.92:25 -> 10.0.16.2:57314
+04/04/2022-14:34:14.258458  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49596 -> 169.254.0.4:80
+04/04/2022-14:34:16.208434  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:53910
+04/04/2022-14:34:16.879226  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:34:16.899359  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:34:16.920974  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:34:23.362356  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49632 -> 169.254.0.4:80
+04/04/2022-14:34:29.362416  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49648 -> 169.254.0.4:80
+04/04/2022-14:34:32.264838  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49660 -> 169.254.0.4:80
+04/04/2022-14:34:33.364653  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49670 -> 169.254.0.4:80
+04/04/2022-14:34:34.412236  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.73:25 -> 10.0.16.2:43180
+04/04/2022-14:34:39.362065  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49690 -> 169.254.0.4:80
+04/04/2022-14:34:43.260739  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49702 -> 169.254.0.4:80
+04/04/2022-14:34:43.362288  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49706 -> 169.254.0.4:80
+04/04/2022-14:34:44.259407  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49710 -> 169.254.0.4:80
+04/04/2022-14:34:47.709746  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.76:25 -> 10.0.16.2:54020
+04/04/2022-14:34:47.972818  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.106:25 -> 10.0.16.2:46826
+04/04/2022-14:34:50.078510  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.153.27:25 -> 10.0.16.2:60478
+04/04/2022-14:34:51.237304  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.251.9.26:25 -> 10.0.16.2:56884
+04/04/2022-14:34:53.261809  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49754 -> 169.254.0.4:80
+04/04/2022-14:34:53.552397  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.74:25 -> 10.0.16.2:46778
+04/04/2022-14:34:54.913829  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.92:25 -> 10.0.16.2:57504
+04/04/2022-14:34:57.411434  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.109:25 -> 10.0.16.2:39614
+04/04/2022-14:35:01.197981  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.142.26:25 -> 10.0.16.2:36718
+04/04/2022-14:35:02.054035  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.142.26:25 -> 10.0.16.2:36724
+04/04/2022-14:35:02.261562  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49804 -> 169.254.0.4:80
+04/04/2022-14:35:02.614762  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:35:02.634913  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:35:02.656590  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:35:03.262856  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49806 -> 169.254.0.4:80
+04/04/2022-14:35:03.363586  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49810 -> 169.254.0.4:80
+04/04/2022-14:35:05.284807  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49824 -> 169.254.0.4:80
+04/04/2022-14:35:05.735449  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.94:25 -> 10.0.16.2:59714
+04/04/2022-14:35:05.859208  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.150.27:25 -> 10.0.16.2:55162
+04/04/2022-14:35:09.360499  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49836 -> 169.254.0.4:80
+04/04/2022-14:35:12.261177  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49858 -> 169.254.0.4:80
+04/04/2022-14:35:12.563079  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.74:25 -> 10.0.16.2:56088
+04/04/2022-14:35:13.260886  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49864 -> 169.254.0.4:80
+04/04/2022-14:35:14.801243  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.142.26:25 -> 10.0.16.2:36782
+04/04/2022-14:35:14.845518  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:54162
+04/04/2022-14:35:18.972481  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.109:25 -> 10.0.16.2:39734
+04/04/2022-14:35:23.261114  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49916 -> 169.254.0.4:80
+04/04/2022-14:35:24.279709  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.157.27:25 -> 10.0.16.2:51086
+04/04/2022-14:35:24.653778  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.94:25 -> 10.0.16.2:59812
+04/04/2022-14:35:25.005199  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.110:25 -> 10.0.16.2:41302
+04/04/2022-14:35:25.361700  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:35:25.382283  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:35:25.402674  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:35:27.715803  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.84:25 -> 10.0.16.2:53564
+04/04/2022-14:35:27.778830  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:54246
+04/04/2022-14:35:27.839560  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 173.194.222.26:25 -> 10.0.16.2:60082
+04/04/2022-14:35:29.361758  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49952 -> 169.254.0.4:80
+04/04/2022-14:35:32.293089  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49966 -> 169.254.0.4:80
+04/04/2022-14:35:33.261001  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:49972 -> 169.254.0.4:80
+04/04/2022-14:35:37.616202  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.84:25 -> 10.0.16.2:53620
+04/04/2022-14:35:38.027292  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.150.27:25 -> 10.0.16.2:55362
+04/04/2022-14:35:39.359691  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50012 -> 169.254.0.4:80
+04/04/2022-14:35:40.103236  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.74:25 -> 10.0.16.2:56246
+04/04/2022-14:35:41.454582  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.74:25 -> 10.0.16.2:47046
+04/04/2022-14:35:43.263960  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50026 -> 169.254.0.4:80
+04/04/2022-14:35:46.388813  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.75:25 -> 10.0.16.2:34478
+04/04/2022-14:35:47.937551  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.76:25 -> 10.0.16.2:54348
+04/04/2022-14:35:48.090822  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:35:48.112658  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:35:48.132823  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 182.254.210.225:8 -> 10.0.16.2:0
+04/04/2022-14:35:48.824603  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.251.9.26:25 -> 10.0.16.2:57196
+04/04/2022-14:35:48.871378  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 74.125.200.26:25 -> 10.0.16.2:53496
+04/04/2022-14:35:49.008122  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:33810
+04/04/2022-14:35:49.362272  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50060 -> 169.254.0.4:80
+04/04/2022-14:35:51.421514  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.91:25 -> 10.0.16.2:56564
+04/04/2022-14:35:53.261431  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50078 -> 169.254.0.4:80
+04/04/2022-14:35:53.362724  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50082 -> 169.254.0.4:80
+04/04/2022-14:35:54.123896  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.94:25 -> 10.0.16.2:59976
+04/04/2022-14:35:57.773878  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.76:25 -> 10.0.16.2:54398
+04/04/2022-14:35:59.399226  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.72:25 -> 10.0.16.2:49096
+04/04/2022-14:35:59.679005  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.75:25 -> 10.0.16.2:54410
+04/04/2022-14:35:59.723314  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.111:25 -> 10.0.16.2:50488
+04/04/2022-14:36:00.459823  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.141.26:25 -> 10.0.16.2:40316
+04/04/2022-14:36:01.615247  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.79:25 -> 10.0.16.2:41734
+04/04/2022-14:36:02.264196  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50132 -> 169.254.0.4:80
+04/04/2022-14:36:03.261496  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50136 -> 169.254.0.4:80
+04/04/2022-14:36:03.364562  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50140 -> 169.254.0.4:80
+04/04/2022-14:36:03.616688  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.94:25 -> 10.0.16.2:60034
+04/04/2022-14:36:05.289962  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50152 -> 169.254.0.4:80
+04/04/2022-14:36:06.529524  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.80:25 -> 10.0.16.2:59498
+04/04/2022-14:36:06.821081  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.79:25 -> 10.0.16.2:41762
+04/04/2022-14:36:09.362369  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50178 -> 169.254.0.4:80
+04/04/2022-14:36:10.939093  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:36:10.960016  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:36:10.981055  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:36:10.985933  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.74:25 -> 10.0.16.2:56408
+04/04/2022-14:36:11.306615  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50186 -> 169.254.0.4:80
+04/04/2022-14:36:11.647006  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.141.26:25 -> 10.0.16.2:40386
+04/04/2022-14:36:13.363742  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50202 -> 169.254.0.4:80
+04/04/2022-14:36:13.682171  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:33950
+04/04/2022-14:36:14.256383  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50208 -> 169.254.0.4:80
+04/04/2022-14:36:14.261431  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50210 -> 169.254.0.4:80
+04/04/2022-14:36:14.297913  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.80:25 -> 10.0.16.2:59544
+04/04/2022-14:36:15.845656  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 173.194.202.26:25 -> 10.0.16.2:46706
+04/04/2022-14:36:16.731720  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.73:25 -> 10.0.16.2:41000
+04/04/2022-14:36:19.362107  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50232 -> 169.254.0.4:80
+04/04/2022-14:36:23.261403  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50248 -> 169.254.0.4:80
+04/04/2022-14:36:23.416442  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.74:25 -> 10.0.16.2:58752
+04/04/2022-14:36:27.562297  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.77:25 -> 10.0.16.2:51820
+04/04/2022-14:36:29.363072  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50276 -> 169.254.0.4:80
+04/04/2022-14:36:33.364925  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50296 -> 169.254.0.4:80
+04/04/2022-14:37:19.359923  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50530 -> 169.254.0.4:80
+04/04/2022-14:37:22.662699  [**] [1:2210045:2] SURICATA STREAM Packet with invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 203.138.180.240:25 -> 10.0.16.2:49064
+04/04/2022-14:37:22.662699  [**] [1:2210046:2] SURICATA STREAM SHUTDOWN RST invalid ack [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 203.138.180.240:25 -> 10.0.16.2:49064
+04/04/2022-14:37:29.434070  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 188.125.72.74:25 -> 10.0.16.2:47590
+04/04/2022-14:37:29.641772  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:34328
+04/04/2022-14:37:30.805652  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.94:25 -> 10.0.16.2:60476
+04/04/2022-14:37:33.365403  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50594 -> 169.254.0.4:80
+04/04/2022-14:37:39.360557  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50618 -> 169.254.0.4:80
+04/04/2022-14:37:41.454979  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.93:25 -> 10.0.16.2:34380
+04/04/2022-14:37:41.780205  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:37:41.800355  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:37:41.821394  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:37:42.263500  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50632 -> 169.254.0.4:80
+04/04/2022-14:37:44.454973  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.102.26:25 -> 10.0.16.2:34692
+04/04/2022-14:37:44.692351  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.204.74:25 -> 10.0.16.2:59140
+04/04/2022-14:37:53.262277  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50680 -> 169.254.0.4:80
+04/04/2022-14:37:53.362641  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50684 -> 169.254.0.4:80
+04/04/2022-14:37:55.388081  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.109:25 -> 10.0.16.2:40520
+04/04/2022-14:37:56.177309  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 173.194.222.26:25 -> 10.0.16.2:60838
+04/04/2022-14:37:56.657949  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 67.195.228.84:25 -> 10.0.16.2:54320
+04/04/2022-14:37:56.949868  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.77:25 -> 10.0.16.2:53908
+04/04/2022-14:37:57.205717  [**] [1:2260002:1] LOCAL DOS SYN packet flood inbound, Potential DOS [**] [Classification: Generic Protocol Command] [Priority: 3] {TCP} 188.125.72.73:25 -> 10.0.16.2:41478
+04/04/2022-14:37:57.348686  [**] [1:2260002:1] LOCAL DOS SYN packet flood inbound, Potential DOS [**] [Classification: Generic Protocol Command] [Priority: 3] {TCP} 142.250.153.26:25 -> 10.0.16.2:55832
+04/04/2022-14:37:57.446328  [**] [1:2260002:1] LOCAL DOS SYN packet flood inbound, Potential DOS [**] [Classification: Generic Protocol Command] [Priority: 3] {TCP} 67.195.204.80:25 -> 10.0.16.2:60050
+04/04/2022-14:37:59.362357  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50716 -> 169.254.0.4:80
+04/04/2022-14:38:03.261182  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50734 -> 169.254.0.4:80
+04/04/2022-14:38:11.306000  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50770 -> 169.254.0.4:80
+04/04/2022-14:38:13.263587  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50780 -> 169.254.0.4:80
+04/04/2022-14:38:19.363644  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50802 -> 169.254.0.4:80
+04/04/2022-14:38:20.523935  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.102.26:25 -> 10.0.16.2:34852
+04/04/2022-14:38:21.879550  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 98.136.96.91:25 -> 10.0.16.2:57312
+04/04/2022-14:38:22.262345  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50818 -> 169.254.0.4:80
+04/04/2022-14:38:23.261532  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50822 -> 169.254.0.4:80
+04/04/2022-14:38:23.365945  [**] [1:2013031:9] ET POLICY Python-urllib/ Suspicious User Agent [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.0.16.2:50824 -> 169.254.0.4:80
+04/04/2022-14:38:26.959429  [**] [1:2260002:1] SURICATA Applayer Detect protocol only one direction [**] [Classification: Generic Protocol Command Decode] [Priority: 3] {TCP} 142.250.141.27:25 -> 10.0.16.2:55888
+04/04/2022-14:38:27.201310  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:38:27.221854  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0
+04/04/2022-14:38:27.243180  [**] [1:2100366:8] GPL ICMP_INFO PING *NIX [**] [Classification: Misc activity] [Priority: 3] {ICMP} 123.206.193.39:8 -> 10.0.16.2:0

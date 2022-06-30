@@ -6,7 +6,12 @@ int builtin_list(char *cmd)
     char *path;
     struct dirent *dir;
 
-    path = getargs(cmd);
+	char **args = alloc_args();
+
+	get_args(cmd, args);
+
+    path = args[1];
+
     if (strlen(path) < 2) {
 	    path = ".";
     }
@@ -25,4 +30,8 @@ int builtin_list(char *cmd)
         }
         closedir(d);
     }
+
+    puts("");
+
+    free_args();
 }

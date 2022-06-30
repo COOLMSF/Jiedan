@@ -1,0 +1,68 @@
+Received: from xmbgsz5.mail.qq.com (unknown [113.108.92.49])
+	by mx63 (Coremail) with SMTP id Dt1pCgBHl9+fQ6Ri2cWcAA--.10470S3;
+	Sat, 11 Jun 2022 15:26:24 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=foxmail.com;
+	s=s201512; t=1654932383;
+	bh=6Rvm5NsfWccEQOo3BjxQkrh/qwSltIyMoOlx0ob+m1c=;
+	h=From:To:Subject:Date;
+	b=SkXV2HYfUo0uKfQBKjDXXqAHKH58E5A6aV8YcJcYQNS6SHRDGiPIwLFZuw+aDklPS
+	 Hzs8KBNk4o21O8obxyu42zS8OT7SKbBNaLdY+aiBqcNUnzEnAFouz9yQB6lMKRNdm+
+	 5aA+/SqeEgjsDC0GP/2wFLwcHAfsZBQlubEWWYCU=
+X-QQ-FEAT: /a4iDlASAVfg03xYD5zke8ZvlFc5cZL3
+X-QQ-SSF: 0000000000000090000000000000
+X-QQ-XMAILINFO: M+FIA52Od6KgTBs1VlhAdQxHtcCcZJPvw0YV7d/CGJ2xt/ACeNs8rxpiIB6ouU
+	 f5POsxjLV01DarZX6wLxUjGX/91GHe2zeZZ3wxK7yu97uFZx4v5GvTktuU6UOlEslVlF39rluDWVp
+	 ovdv0EbpKc++OUqn9uOz7yuceKJcimK4w+2/ucAwhtDcYYSiil88WBCkbwF1scOjXGrZUJCWvyMnq
+	 PwxVVL+1duMwxbeVNrb//fLK96TvXEq1Xqn5FGZH0qL2YjogKM3yp3zd5rV6kczN0WSeedG+tI+h/
+	 kGjQanX/jUdDaOZuH/9M0xDbEkQZ0iXs4DuXlK5I6Tt4N9+usafxLdhWis0vSZY1/O51ve5mf+Com
+	 0rDLT3IUr8yIypcs+awYxovTWqCKYyqjvkpj3z3sx4gRwQrxIoHOUR1hlrYRWX/05JJg/G/GNDuk8
+	 Ak9CKWU4l6VLGuifQENC1MjXRifpvdlexs47LQsOmUW4GsGv5o9V1PjrCiRQlJPeoAumVc4QeS0j1
+	 n0EYATDRArLtSnpNndHQqJ3v0m2nkasqfoeontSbirY7GjTudfjRQcLT6HMKKQe8UQtEKqaljpI3Y
+	 5zvRXL/k5PdvPgwxdquNHrZcA7WaNhSqJ7wWElPnBEOnjZgsVHnCRK8epZfHcwAZIg/3FmyNvPCQp
+	 YDe2MBaAWbUC3RLyupnC9tPyl8JJ20qVU2Jlc/9KGcsLyfNnXLTQivIAK/fAhijlM/Wbt/vqR1WsR
+	 lZoiiJRc3GEWmsC+WGapR9iFZ6tJTGlqD7KgP7H+/XvZ+TxAD7syZwHuaAiO2dhymQXjAqTLVeTbs
+	 uZXNja9VYDK6kie2G1hPKXNIR0ZOuivB5AY516J+lutnLXBWZFzu3kXgrxzTxEtSzzEe2c2+jjgYW
+	 D409aQC15sQwwKazggnOmWB1Kxk7BEO
+X-HAS-ATTACH: no
+X-QQ-BUSINESS-ORIGIN: 2
+X-Originating-IP: 123.147.70.137
+X-QQ-STYLE: 
+X-QQ-mid: webmail817t1654932383t4813
+From: "=?ISO-8859-1?B?MjM2ODg3NzE5Nw==?=" <coolder.hsl@foxmail.com>
+To: "=?ISO-8859-1?B?UE9QM0xhYg==?=" <pop3lab@163.com>
+Subject: Another Foobar
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_62A4439F_12377D58_5863BE15"
+Content-Transfer-Encoding: 8Bit
+Date: Sat, 11 Jun 2022 15:26:23 +0800
+X-Priority: 3
+Message-ID: <tencent_1960B9647A24218B4C2501C576687BFF820A@qq.com>
+X-QQ-MIME: TCMime 1.0 by Tencent
+X-Mailer: QQMail 2.x
+X-QQ-Mailer: QQMail 2.x
+X-CM-TRANSID:Dt1pCgBHl9+fQ6Ri2cWcAA--.10470S3
+Authentication-Results: mx63; spf=pass smtp.mail=coolder.hsl@foxmail.c
+	om; dkim=pass header.i=@foxmail.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7bjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxUxubyDUUUU
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_62A4439F_12377D58_5863BE15
+Content-Type: text/plain;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: base64
+
+bm90aGluZyBidXQgdGVzdA==
+
+------=_NextPart_62A4439F_12377D58_5863BE15
+Content-Type: text/html;
+	charset="ISO-8859-1"
+Content-Transfer-Encoding: base64
+
+bm90aGluZyBidXQgdGVzdA==
+
+------=_NextPart_62A4439F_12377D58_5863BE15--
+Å
+.
