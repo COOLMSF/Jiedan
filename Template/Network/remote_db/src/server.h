@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <sys/types.h>
+#include <stdio.h>
+#include <time.h> 
+#include <err.h>
+#include <sqlite3.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>

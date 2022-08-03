@@ -1,0 +1,4 @@
+/Users/coolder/Documents/JieDan/Template/Network/tcp_sqlite3_c1/debug/CMakeFiles/client.dir
+/Users/coolder/Documents/JieDan/Template/Network/tcp_sqlite3_c1/debug/CMakeFiles/server.dir
+/Users/coolder/Documents/JieDan/Template/Network/tcp_sqlite3_c1/debug/CMakeFiles/edit_cache.dir
+/Users/coolder/Documents/JieDan/Template/Network/tcp_sqlite3_c1/debug/CMakeFiles/rebuild_cache.dir
