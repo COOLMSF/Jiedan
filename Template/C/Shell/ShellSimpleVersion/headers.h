@@ -37,6 +37,7 @@ int builtin_wc(char *cmd);
 int builtin_cp(char *cmd);
 int builtin_touch(char *cmd);
 int builtin_rm(char *cmd);
+int builtin_mv(char *cmd);
 
 char **alloc_args();
 int free_args();

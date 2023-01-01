@@ -1,6 +1,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -71,11 +72,6 @@ int do_sql(char *sql, int socket_client)
     
     int rc = sqlite3_open("test.db", &db);
 
-	if (strstr(sql, "create")) {
-		printf("Note: %s\n", sql);
-		sleep(10);
-	}
-    
     if (rc != SQLITE_OK) {
         
 		char tmp[1024]; bzero( tmp, 1024 );
@@ -196,9 +192,19 @@ int main(int argc, char *argv[])
 					do_sql(recv_data, connfd);
 				}
 
-				printf("Full_buffer %s\n", full_buffer);
 				strcat(full_buffer, send_data);
-				send(connfd, full_buffer, strlen(full_buffer), 0);
+				printf("Full_buffer %s\n", full_buffer);
+				printf("buf to send %s\n", send_data);
+				printf("full buffer len %d\n", strlen(full_buffer));
+				if (strlen(full_buffer) < 5) {
+					char tmp[BUFSIZ] = "succeed\n";
+					if (send(connfd, tmp, strlen(tmp), 0) < 0) {
+						err(EXIT_FAILURE, "send");
+					}
+					puts("Succeed!!!");
+				} else {
+					send(connfd, full_buffer, strlen(full_buffer), 0);
+				}
 				memset(send_data, 0, sizeof(send_data));
 				memset(recv_data, 0, sizeof(recv_data));
 				memset(full_buffer, 0, sizeof(full_buffer));

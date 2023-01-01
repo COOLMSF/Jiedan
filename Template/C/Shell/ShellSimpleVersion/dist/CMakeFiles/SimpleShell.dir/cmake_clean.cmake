@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimpleShell.dir/builtin_list.o.d"
   "CMakeFiles/SimpleShell.dir/builtin_makedir.o"
   "CMakeFiles/SimpleShell.dir/builtin_makedir.o.d"
+  "CMakeFiles/SimpleShell.dir/builtin_mv.o"
+  "CMakeFiles/SimpleShell.dir/builtin_mv.o.d"
   "CMakeFiles/SimpleShell.dir/builtin_pwd.o"
   "CMakeFiles/SimpleShell.dir/builtin_pwd.o.d"
   "CMakeFiles/SimpleShell.dir/builtin_rm.o"

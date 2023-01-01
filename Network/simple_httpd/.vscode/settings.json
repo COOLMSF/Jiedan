@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "system_error": "c",
+        "__availability": "c",
+        "ctime": "c",
+        "type_traits": "c",
+        "*.tcc": "c"
+    }
+}

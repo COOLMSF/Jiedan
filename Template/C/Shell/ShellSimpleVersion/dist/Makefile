@@ -235,6 +235,21 @@ builtin_makedir.s:
 .PHONY : builtin_makedir.s
 
 # target to build an object file
+builtin_mv.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/builtin_mv.o
+.PHONY : builtin_mv.o
+
+# target to preprocess a source file
+builtin_mv.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/builtin_mv.i
+.PHONY : builtin_mv.i
+
+# target to generate assembly for a file
+builtin_mv.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/builtin_mv.s
+.PHONY : builtin_mv.s
+
+# target to build an object file
 builtin_pwd.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleShell.dir/build.make CMakeFiles/SimpleShell.dir/builtin_pwd.o
 .PHONY : builtin_pwd.o
@@ -384,6 +399,9 @@ help:
 	@echo "... builtin_makedir.o"
 	@echo "... builtin_makedir.i"
 	@echo "... builtin_makedir.s"
+	@echo "... builtin_mv.o"
+	@echo "... builtin_mv.i"
+	@echo "... builtin_mv.s"
 	@echo "... builtin_pwd.o"
 	@echo "... builtin_pwd.i"
 	@echo "... builtin_pwd.s"

@@ -1,0 +1,7 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "files.associations": {
+        "persion.h": "c",
+        "person.h": "c"
+    }
+}

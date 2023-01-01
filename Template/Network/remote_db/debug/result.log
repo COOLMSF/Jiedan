@@ -43497,3 +43497,8 @@ SQL insert into name_table values("coolder");
 SQL select * from name_table;
 SQL 
 SQL 
+SQL create table new_table (id int, str varchar(100));
+SQL insert into new_table values(1, "first");
+SQL select * from new_table;
+SQL drop table new_table;
+SQL select * from new_table;

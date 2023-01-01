@@ -17,7 +17,17 @@ int main(int argc, char const *argv[])
             builtin_pwd();
         }
 
+        if (strstr(input, "rename") != NULL) {
+            builtin_mv(input);
+        }
+        if (strstr(input, "mv") != NULL) {
+            builtin_mv(input);
+        }
+
         if (strstr(input, "ls") != NULL) {
+            builtin_list(input);
+        }
+        if (strstr(input, "dir") != NULL) {
             builtin_list(input);
         }
 
@@ -26,6 +36,9 @@ int main(int argc, char const *argv[])
         }
 
         if (strstr(input, "rmdir") != NULL) {
+            builtin_deldir(input);
+        }
+        if (strstr(input, "del") != NULL) {
             builtin_deldir(input);
         }
 

@@ -167,10 +167,24 @@ CMakeFiles/SimpleShell.dir/builtin_makedir.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SimpleShell.dir/builtin_makedir.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_makedir.c -o CMakeFiles/SimpleShell.dir/builtin_makedir.s
 
+CMakeFiles/SimpleShell.dir/builtin_mv.o: CMakeFiles/SimpleShell.dir/flags.make
+CMakeFiles/SimpleShell.dir/builtin_mv.o: ../builtin_mv.c
+CMakeFiles/SimpleShell.dir/builtin_mv.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SimpleShell.dir/builtin_mv.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/builtin_mv.o -MF CMakeFiles/SimpleShell.dir/builtin_mv.o.d -o CMakeFiles/SimpleShell.dir/builtin_mv.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_mv.c
+
+CMakeFiles/SimpleShell.dir/builtin_mv.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SimpleShell.dir/builtin_mv.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_mv.c > CMakeFiles/SimpleShell.dir/builtin_mv.i
+
+CMakeFiles/SimpleShell.dir/builtin_mv.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SimpleShell.dir/builtin_mv.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_mv.c -o CMakeFiles/SimpleShell.dir/builtin_mv.s
+
 CMakeFiles/SimpleShell.dir/builtin_pwd.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/builtin_pwd.o: ../builtin_pwd.c
 CMakeFiles/SimpleShell.dir/builtin_pwd.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SimpleShell.dir/builtin_pwd.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SimpleShell.dir/builtin_pwd.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/builtin_pwd.o -MF CMakeFiles/SimpleShell.dir/builtin_pwd.o.d -o CMakeFiles/SimpleShell.dir/builtin_pwd.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_pwd.c
 
 CMakeFiles/SimpleShell.dir/builtin_pwd.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/SimpleShell.dir/builtin_pwd.s: cmake_force
 CMakeFiles/SimpleShell.dir/builtin_rm.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/builtin_rm.o: ../builtin_rm.c
 CMakeFiles/SimpleShell.dir/builtin_rm.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SimpleShell.dir/builtin_rm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SimpleShell.dir/builtin_rm.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/builtin_rm.o -MF CMakeFiles/SimpleShell.dir/builtin_rm.o.d -o CMakeFiles/SimpleShell.dir/builtin_rm.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_rm.c
 
 CMakeFiles/SimpleShell.dir/builtin_rm.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/SimpleShell.dir/builtin_rm.s: cmake_force
 CMakeFiles/SimpleShell.dir/builtin_touch.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/builtin_touch.o: ../builtin_touch.c
 CMakeFiles/SimpleShell.dir/builtin_touch.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SimpleShell.dir/builtin_touch.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SimpleShell.dir/builtin_touch.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/builtin_touch.o -MF CMakeFiles/SimpleShell.dir/builtin_touch.o.d -o CMakeFiles/SimpleShell.dir/builtin_touch.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_touch.c
 
 CMakeFiles/SimpleShell.dir/builtin_touch.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/SimpleShell.dir/builtin_touch.s: cmake_force
 CMakeFiles/SimpleShell.dir/builtin_wc.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/builtin_wc.o: ../builtin_wc.c
 CMakeFiles/SimpleShell.dir/builtin_wc.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SimpleShell.dir/builtin_wc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SimpleShell.dir/builtin_wc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/builtin_wc.o -MF CMakeFiles/SimpleShell.dir/builtin_wc.o.d -o CMakeFiles/SimpleShell.dir/builtin_wc.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/builtin_wc.c
 
 CMakeFiles/SimpleShell.dir/builtin_wc.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/SimpleShell.dir/builtin_wc.s: cmake_force
 CMakeFiles/SimpleShell.dir/common.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/common.o: ../common.c
 CMakeFiles/SimpleShell.dir/common.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SimpleShell.dir/common.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SimpleShell.dir/common.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/common.o -MF CMakeFiles/SimpleShell.dir/common.o.d -o CMakeFiles/SimpleShell.dir/common.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/common.c
 
 CMakeFiles/SimpleShell.dir/common.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/SimpleShell.dir/common.s: cmake_force
 CMakeFiles/SimpleShell.dir/getpath.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/getpath.o: ../getpath.c
 CMakeFiles/SimpleShell.dir/getpath.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SimpleShell.dir/getpath.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SimpleShell.dir/getpath.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/getpath.o -MF CMakeFiles/SimpleShell.dir/getpath.o.d -o CMakeFiles/SimpleShell.dir/getpath.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/getpath.c
 
 CMakeFiles/SimpleShell.dir/getpath.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/SimpleShell.dir/getpath.s: cmake_force
 CMakeFiles/SimpleShell.dir/main.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/main.o: ../main.c
 CMakeFiles/SimpleShell.dir/main.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SimpleShell.dir/main.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SimpleShell.dir/main.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/main.o -MF CMakeFiles/SimpleShell.dir/main.o.d -o CMakeFiles/SimpleShell.dir/main.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/main.c
 
 CMakeFiles/SimpleShell.dir/main.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/SimpleShell.dir/main.s: cmake_force
 CMakeFiles/SimpleShell.dir/print_banner.o: CMakeFiles/SimpleShell.dir/flags.make
 CMakeFiles/SimpleShell.dir/print_banner.o: ../print_banner.c
 CMakeFiles/SimpleShell.dir/print_banner.o: CMakeFiles/SimpleShell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SimpleShell.dir/print_banner.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SimpleShell.dir/print_banner.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SimpleShell.dir/print_banner.o -MF CMakeFiles/SimpleShell.dir/print_banner.o.d -o CMakeFiles/SimpleShell.dir/print_banner.o -c /Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/print_banner.c
 
 CMakeFiles/SimpleShell.dir/print_banner.i: cmake_force
@@ -288,6 +302,7 @@ SimpleShell_OBJECTS = \
 "CMakeFiles/SimpleShell.dir/builtin_echo.o" \
 "CMakeFiles/SimpleShell.dir/builtin_list.o" \
 "CMakeFiles/SimpleShell.dir/builtin_makedir.o" \
+"CMakeFiles/SimpleShell.dir/builtin_mv.o" \
 "CMakeFiles/SimpleShell.dir/builtin_pwd.o" \
 "CMakeFiles/SimpleShell.dir/builtin_rm.o" \
 "CMakeFiles/SimpleShell.dir/builtin_touch.o" \
@@ -307,6 +322,7 @@ SimpleShell: CMakeFiles/SimpleShell.dir/builtin_deldir.o
 SimpleShell: CMakeFiles/SimpleShell.dir/builtin_echo.o
 SimpleShell: CMakeFiles/SimpleShell.dir/builtin_list.o
 SimpleShell: CMakeFiles/SimpleShell.dir/builtin_makedir.o
+SimpleShell: CMakeFiles/SimpleShell.dir/builtin_mv.o
 SimpleShell: CMakeFiles/SimpleShell.dir/builtin_pwd.o
 SimpleShell: CMakeFiles/SimpleShell.dir/builtin_rm.o
 SimpleShell: CMakeFiles/SimpleShell.dir/builtin_touch.o
@@ -317,7 +333,7 @@ SimpleShell: CMakeFiles/SimpleShell.dir/main.o
 SimpleShell: CMakeFiles/SimpleShell.dir/print_banner.o
 SimpleShell: CMakeFiles/SimpleShell.dir/build.make
 SimpleShell: CMakeFiles/SimpleShell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable SimpleShell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/coolder/Documents/JieDan/Template/C/Shell/ShellSimpleVersion/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable SimpleShell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleShell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
