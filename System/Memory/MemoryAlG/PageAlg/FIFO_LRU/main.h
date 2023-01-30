@@ -1,0 +1,2 @@
+int lru();
+int fifo();
