@@ -1,0 +1,16 @@
+./data/faces/keli/68.jpg	2
+./data/faces/keli/82.jpg	2
+./data/faces/keli/27.jpg	2
+./data/faces/keli/50.jpg	2
+./data/faces/abeiduo/u=2999973379,2410503970&fm=253&fmt=auto&app=120&f=JPEG.jpg	0
+./data/faces/hutao/u=1808773308,1479340715&fm=253&fmt=auto&app=138&f=JPEG.jpg	1
+./data/faces/abeiduo/u=1887021335,229177177&fm=253&fmt=auto&app=138&f=JPEG.jpg	0
+./data/faces/hutao/u=3414378152,4027955476&fm=253&fmt=auto&app=138&f=JPG.jpg	1
+./data/faces/keli/0.jpg	2
+./data/faces/hutao/u=454015589,2930797301&fm=253&fmt=auto&app=138&f=JPEG.jpg	1
+./data/faces/abeiduo/u=3939885753,1696473982&fm=253&fmt=auto&app=138&f=JPEG.jpg	0
+./data/faces/abeiduo/u=715227453,970676679&fm=253&fmt=auto&app=138&f=JPEG.jpg	0
+./data/faces/abeiduo/u=2479392402,4183879478&fm=253&fmt=auto&app=120&f=JPEG.jpg	0
+./data/faces/hutao/u=1057048732,240513742&fm=253&fmt=auto&app=138&f=JPEG.jpg	1
+./data/faces/hutao/u=2552688338,4184385295&fm=253&fmt=auto&app=138&f=JPEG.jpg	1
+./data/faces/abeiduo/u=1146740305,2418670851&fm=253&fmt=auto&app=120&f=JPEG.jpg	0

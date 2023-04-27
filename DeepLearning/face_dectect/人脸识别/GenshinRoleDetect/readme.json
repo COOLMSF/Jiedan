@@ -1,0 +1,24 @@
+{
+    "all_class_images": 143,
+    "all_class_name": "./data/faces/",
+    "class_detail": [
+        {
+            "class_label": 0,
+            "class_name": "abeiduo",
+            "class_test_images": 6,
+            "class_train_images": 48
+        },
+        {
+            "class_label": 1,
+            "class_name": "hutao",
+            "class_test_images": 5,
+            "class_train_images": 41
+        },
+        {
+            "class_label": 2,
+            "class_name": "keli",
+            "class_test_images": 5,
+            "class_train_images": 38
+        }
+    ]
+}
