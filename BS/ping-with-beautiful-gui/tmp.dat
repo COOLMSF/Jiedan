@@ -1,0 +1,9 @@
+PING www.bing.com (204.79.197.200): 55 data bytes
+47 bytes from 204.79.197.200: icmp_seq=0 ttl=114 time=112.825 ms
+47 bytes from 204.79.197.200: icmp_seq=1 ttl=114 time=98.392 ms
+47 bytes from 204.79.197.200: icmp_seq=2 ttl=114 time=107.774 ms
+47 bytes from 204.79.197.200: icmp_seq=3 ttl=114 time=101.740 ms
+47 bytes from 204.79.197.200: icmp_seq=4 ttl=114 time=100.131 ms
+--- www.bing.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max = 98.392/104.172/112.825 ms
